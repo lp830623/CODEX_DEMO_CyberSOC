@@ -7,7 +7,10 @@ test('complete synthetic demo journey',async({page})=>{
  await page.getByRole('button',{name:'Otwórz INC-1043',exact:true}).click();
  await expect(page.getByRole('dialog')).toContainText('Udane logowanie po serii błędów');
  await page.getByLabel('Status incydentu',{exact:true}).selectOption('resolved');
- await page.getByLabel('Zweryfikuj dowody i zakres incydentu',{exact:true}).check();
+ const step=page.getByLabel('Zweryfikuj dowody i zakres incydentu',{exact:true});
+ await step.click();
+ await expect(step).toBeChecked();
+ await expect(page.getByRole('heading',{name:'Playbook reakcji · 1/3',exact:true})).toBeVisible();
  await page.getByRole('button',{name:'Zamknij szczegóły'}).click();
  await page.reload();
  await page.getByRole('button',{name:'Dziennik działań',exact:true}).click();
