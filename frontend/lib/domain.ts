@@ -1,14 +1,9 @@
 export type Event={id:string;timestamp:string;type:string;account:string;sourceIp:string;asset:string;technique:string};
 export type Incident={id:string;title:string;kind:string;severity:string;status:string;asset:string;account:string;sourceIp:string;technique:string;createdAt:string;description:string;events:Event[];playbook:boolean[]};
 export type State={schemaVersion:number;mode:string;clock:string;events:Event[];incidents:Incident[];runs:string[];audit:{id:string;at:string;action:string;actor:string}[]};
-export function detectTakeovers(events:Event[]){
- const ordered=[...new Map(events.map(e=>[e.id,e])).values()].sort((a,b)=>Date.parse(a.timestamp)-Date.parse(b.timestamp)||a.id.localeCompare(b.id));
- return ordered.filter(e=>e.type==='login_success').flatMap(success=>{
-  const same=ordered.filter(e=>e.type==='login_failed'&&e.account===success.account&&e.sourceIp===success.sourceIp&&Date.parse(e.timestamp)<Date.parse(success.timestamp));
-  const last=same.at(-1);if(!last||Date.parse(success.timestamp)-Date.parse(last.timestamp)>120000)return [];
-  const window=same.filter(e=>Date.parse(last.timestamp)-Date.parse(e.timestamp)<=600000);
-  return window.length>=5?[{successId:success.id,events:[...window,success]}]:[];
- });
+export function detectTakeovers(events:Event[]):{successId:string;events:Event[]}[]{
+ // TODO: implement correlation and make the exercise tests pass.
+ return [];
 }
 const scenarios:Record<string,[string,string,string,string]>={brute_force:['Udane logowanie po serii błędów','critical','T1110','login_failed'],phishing:['Kampania phishingowa: fałszywa faktura','high','T1566.001','email_flagged'],ransomware:['Masowa zmiana plików na DEMO-WS-07','critical','T1486','file_change'],lateral:['Nietypowe sesje zdalne między hostami','high','T1021','remote_session']};
 function audit(s:State,action:string){s.audit.unshift({id:`AUD-${s.audit.length+1}`,at:s.clock,action,actor:'Analityk DEMO'});}

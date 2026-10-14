@@ -7,23 +7,8 @@ def audit(data, message):
     data['audit'].insert(0, {'id':f"AUD-{len(data['audit'])+1}", 'at':data['clock'], 'action':message, 'actor':'Analityk DEMO'})
 
 def detect_takeovers(events):
-    """Five failures in <=10m, followed by success <=2m later, per account AND IP.
-
-    Sort by event time, deduplicate event IDs and emit one finding per success.
-    The success must follow all failures strictly; equal timestamps do not count.
-    """
-    unique = {event['id']: event for event in events}
-    ordered = sorted(unique.values(), key=lambda e: (timestamp(e['timestamp']), e['id']))
-    findings = []
-    for success in ordered:
-        if success['type'] != 'login_success': continue
-        same = [e for e in ordered if e['type']=='login_failed' and e['account']==success['account'] and e['sourceIp']==success['sourceIp'] and timestamp(e['timestamp']) < timestamp(success['timestamp'])]
-        if not same: continue
-        last = same[-1]
-        if timestamp(success['timestamp']) - timestamp(last['timestamp']) > timedelta(minutes=2): continue
-        window = [e for e in same if timestamp(last['timestamp'])-timestamp(e['timestamp']) <= timedelta(minutes=10)]
-        if len(window)>=5: findings.append({'successId':success['id'], 'events':window+[success]})
-    return findings
+    """TODO: implement event-time correlation; see docs/presenter-guide.md."""
+    return []
 
 SCENARIOS = {
     'brute_force': ('Udane logowanie po serii błędów', 'critical', 'T1110', 'login_failed'),
