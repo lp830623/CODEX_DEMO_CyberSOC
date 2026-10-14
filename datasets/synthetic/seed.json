@@ -1,0 +1,4866 @@
+{
+  "schemaVersion": 1,
+  "mode": "demo",
+  "clock": "2026-01-15T17:00:00Z",
+  "events": [
+    {
+      "id": "EVT-0001",
+      "timestamp": "2026-01-15T08:00:00Z",
+      "type": "email_flagged",
+      "account": "user-01",
+      "sourceIp": "192.0.2.1",
+      "asset": "DEMO-WS-01",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0002",
+      "timestamp": "2026-01-15T08:00:57Z",
+      "type": "login_failed",
+      "account": "user-02",
+      "sourceIp": "192.0.2.2",
+      "asset": "DEMO-WS-02",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0003",
+      "timestamp": "2026-01-15T08:01:54Z",
+      "type": "file_change",
+      "account": "user-03",
+      "sourceIp": "192.0.2.3",
+      "asset": "DEMO-WS-03",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0004",
+      "timestamp": "2026-01-15T08:02:51Z",
+      "type": "remote_session",
+      "account": "user-04",
+      "sourceIp": "192.0.2.4",
+      "asset": "DEMO-WS-04",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0005",
+      "timestamp": "2026-01-15T08:03:48Z",
+      "type": "email_flagged",
+      "account": "user-05",
+      "sourceIp": "192.0.2.5",
+      "asset": "DEMO-WS-05",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0006",
+      "timestamp": "2026-01-15T08:04:45Z",
+      "type": "login_failed",
+      "account": "user-06",
+      "sourceIp": "192.0.2.6",
+      "asset": "DEMO-WS-06",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0007",
+      "timestamp": "2026-01-15T08:05:42Z",
+      "type": "file_change",
+      "account": "user-07",
+      "sourceIp": "192.0.2.7",
+      "asset": "DEMO-WS-07",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0008",
+      "timestamp": "2026-01-15T08:06:39Z",
+      "type": "remote_session",
+      "account": "user-08",
+      "sourceIp": "192.0.2.8",
+      "asset": "DEMO-WS-08",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0009",
+      "timestamp": "2026-01-15T08:07:36Z",
+      "type": "email_flagged",
+      "account": "user-09",
+      "sourceIp": "192.0.2.9",
+      "asset": "DEMO-WS-09",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0010",
+      "timestamp": "2026-01-15T08:08:33Z",
+      "type": "login_failed",
+      "account": "user-10",
+      "sourceIp": "192.0.2.10",
+      "asset": "DEMO-WS-10",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0011",
+      "timestamp": "2026-01-15T08:09:30Z",
+      "type": "file_change",
+      "account": "user-11",
+      "sourceIp": "192.0.2.11",
+      "asset": "DEMO-WS-11",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0012",
+      "timestamp": "2026-01-15T08:10:27Z",
+      "type": "remote_session",
+      "account": "user-12",
+      "sourceIp": "192.0.2.12",
+      "asset": "DEMO-WS-12",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0013",
+      "timestamp": "2026-01-15T08:11:24Z",
+      "type": "email_flagged",
+      "account": "user-13",
+      "sourceIp": "192.0.2.13",
+      "asset": "DEMO-WS-13",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0014",
+      "timestamp": "2026-01-15T08:12:21Z",
+      "type": "login_failed",
+      "account": "user-14",
+      "sourceIp": "192.0.2.14",
+      "asset": "DEMO-WS-14",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0015",
+      "timestamp": "2026-01-15T08:13:18Z",
+      "type": "file_change",
+      "account": "user-15",
+      "sourceIp": "192.0.2.15",
+      "asset": "DEMO-WS-15",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0016",
+      "timestamp": "2026-01-15T08:14:15Z",
+      "type": "remote_session",
+      "account": "user-16",
+      "sourceIp": "192.0.2.16",
+      "asset": "DEMO-WS-16",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0017",
+      "timestamp": "2026-01-15T08:15:12Z",
+      "type": "email_flagged",
+      "account": "user-17",
+      "sourceIp": "192.0.2.17",
+      "asset": "DEMO-WS-17",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0018",
+      "timestamp": "2026-01-15T08:16:09Z",
+      "type": "login_failed",
+      "account": "user-01",
+      "sourceIp": "192.0.2.18",
+      "asset": "DEMO-WS-18",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0019",
+      "timestamp": "2026-01-15T08:17:06Z",
+      "type": "file_change",
+      "account": "user-02",
+      "sourceIp": "192.0.2.19",
+      "asset": "DEMO-WS-19",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0020",
+      "timestamp": "2026-01-15T08:18:03Z",
+      "type": "remote_session",
+      "account": "user-03",
+      "sourceIp": "192.0.2.20",
+      "asset": "DEMO-WS-20",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0021",
+      "timestamp": "2026-01-15T08:19:00Z",
+      "type": "email_flagged",
+      "account": "user-04",
+      "sourceIp": "192.0.2.21",
+      "asset": "DEMO-WS-21",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0022",
+      "timestamp": "2026-01-15T08:19:57Z",
+      "type": "login_failed",
+      "account": "user-05",
+      "sourceIp": "192.0.2.22",
+      "asset": "DEMO-WS-22",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0023",
+      "timestamp": "2026-01-15T08:20:54Z",
+      "type": "file_change",
+      "account": "user-06",
+      "sourceIp": "192.0.2.23",
+      "asset": "DEMO-WS-23",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0024",
+      "timestamp": "2026-01-15T08:21:51Z",
+      "type": "remote_session",
+      "account": "user-07",
+      "sourceIp": "192.0.2.24",
+      "asset": "DEMO-WS-24",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0025",
+      "timestamp": "2026-01-15T08:22:48Z",
+      "type": "email_flagged",
+      "account": "user-08",
+      "sourceIp": "192.0.2.25",
+      "asset": "DEMO-WS-25",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0026",
+      "timestamp": "2026-01-15T08:23:45Z",
+      "type": "login_failed",
+      "account": "user-09",
+      "sourceIp": "192.0.2.26",
+      "asset": "DEMO-WS-01",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0027",
+      "timestamp": "2026-01-15T08:24:42Z",
+      "type": "file_change",
+      "account": "user-10",
+      "sourceIp": "192.0.2.27",
+      "asset": "DEMO-WS-02",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0028",
+      "timestamp": "2026-01-15T08:25:39Z",
+      "type": "remote_session",
+      "account": "user-11",
+      "sourceIp": "192.0.2.28",
+      "asset": "DEMO-WS-03",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0029",
+      "timestamp": "2026-01-15T08:26:36Z",
+      "type": "email_flagged",
+      "account": "user-12",
+      "sourceIp": "192.0.2.29",
+      "asset": "DEMO-WS-04",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0030",
+      "timestamp": "2026-01-15T08:27:33Z",
+      "type": "login_failed",
+      "account": "user-13",
+      "sourceIp": "192.0.2.30",
+      "asset": "DEMO-WS-05",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0031",
+      "timestamp": "2026-01-15T08:28:30Z",
+      "type": "file_change",
+      "account": "user-14",
+      "sourceIp": "192.0.2.31",
+      "asset": "DEMO-WS-06",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0032",
+      "timestamp": "2026-01-15T08:29:27Z",
+      "type": "remote_session",
+      "account": "user-15",
+      "sourceIp": "192.0.2.32",
+      "asset": "DEMO-WS-07",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0033",
+      "timestamp": "2026-01-15T08:30:24Z",
+      "type": "email_flagged",
+      "account": "user-16",
+      "sourceIp": "192.0.2.33",
+      "asset": "DEMO-WS-08",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0034",
+      "timestamp": "2026-01-15T08:31:21Z",
+      "type": "login_failed",
+      "account": "user-17",
+      "sourceIp": "192.0.2.34",
+      "asset": "DEMO-WS-09",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0035",
+      "timestamp": "2026-01-15T08:32:18Z",
+      "type": "file_change",
+      "account": "user-01",
+      "sourceIp": "192.0.2.35",
+      "asset": "DEMO-WS-10",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0036",
+      "timestamp": "2026-01-15T08:33:15Z",
+      "type": "remote_session",
+      "account": "user-02",
+      "sourceIp": "192.0.2.36",
+      "asset": "DEMO-WS-11",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0037",
+      "timestamp": "2026-01-15T08:34:12Z",
+      "type": "email_flagged",
+      "account": "user-03",
+      "sourceIp": "192.0.2.37",
+      "asset": "DEMO-WS-12",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0038",
+      "timestamp": "2026-01-15T08:35:09Z",
+      "type": "login_failed",
+      "account": "user-04",
+      "sourceIp": "192.0.2.38",
+      "asset": "DEMO-WS-13",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0039",
+      "timestamp": "2026-01-15T08:36:06Z",
+      "type": "file_change",
+      "account": "user-05",
+      "sourceIp": "192.0.2.39",
+      "asset": "DEMO-WS-14",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0040",
+      "timestamp": "2026-01-15T08:37:03Z",
+      "type": "remote_session",
+      "account": "user-06",
+      "sourceIp": "192.0.2.40",
+      "asset": "DEMO-WS-15",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0041",
+      "timestamp": "2026-01-15T08:38:00Z",
+      "type": "email_flagged",
+      "account": "user-07",
+      "sourceIp": "192.0.2.41",
+      "asset": "DEMO-WS-16",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0042",
+      "timestamp": "2026-01-15T08:38:57Z",
+      "type": "login_failed",
+      "account": "user-08",
+      "sourceIp": "192.0.2.42",
+      "asset": "DEMO-WS-17",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0043",
+      "timestamp": "2026-01-15T08:39:54Z",
+      "type": "file_change",
+      "account": "user-09",
+      "sourceIp": "192.0.2.43",
+      "asset": "DEMO-WS-18",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0044",
+      "timestamp": "2026-01-15T08:40:51Z",
+      "type": "remote_session",
+      "account": "user-10",
+      "sourceIp": "192.0.2.44",
+      "asset": "DEMO-WS-19",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0045",
+      "timestamp": "2026-01-15T08:41:48Z",
+      "type": "email_flagged",
+      "account": "user-11",
+      "sourceIp": "192.0.2.45",
+      "asset": "DEMO-WS-20",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0046",
+      "timestamp": "2026-01-15T08:42:45Z",
+      "type": "login_failed",
+      "account": "user-12",
+      "sourceIp": "192.0.2.46",
+      "asset": "DEMO-WS-21",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0047",
+      "timestamp": "2026-01-15T08:43:42Z",
+      "type": "file_change",
+      "account": "user-13",
+      "sourceIp": "192.0.2.47",
+      "asset": "DEMO-WS-22",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0048",
+      "timestamp": "2026-01-15T08:44:39Z",
+      "type": "remote_session",
+      "account": "user-14",
+      "sourceIp": "192.0.2.48",
+      "asset": "DEMO-WS-23",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0049",
+      "timestamp": "2026-01-15T08:45:36Z",
+      "type": "email_flagged",
+      "account": "user-15",
+      "sourceIp": "192.0.2.49",
+      "asset": "DEMO-WS-24",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0050",
+      "timestamp": "2026-01-15T08:46:33Z",
+      "type": "login_failed",
+      "account": "user-16",
+      "sourceIp": "192.0.2.50",
+      "asset": "DEMO-WS-25",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0051",
+      "timestamp": "2026-01-15T08:47:30Z",
+      "type": "file_change",
+      "account": "user-17",
+      "sourceIp": "192.0.2.51",
+      "asset": "DEMO-WS-01",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0052",
+      "timestamp": "2026-01-15T08:48:27Z",
+      "type": "remote_session",
+      "account": "user-01",
+      "sourceIp": "192.0.2.52",
+      "asset": "DEMO-WS-02",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0053",
+      "timestamp": "2026-01-15T08:49:24Z",
+      "type": "email_flagged",
+      "account": "user-02",
+      "sourceIp": "192.0.2.53",
+      "asset": "DEMO-WS-03",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0054",
+      "timestamp": "2026-01-15T08:50:21Z",
+      "type": "login_failed",
+      "account": "user-03",
+      "sourceIp": "192.0.2.54",
+      "asset": "DEMO-WS-04",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0055",
+      "timestamp": "2026-01-15T08:51:18Z",
+      "type": "file_change",
+      "account": "user-04",
+      "sourceIp": "192.0.2.55",
+      "asset": "DEMO-WS-05",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0056",
+      "timestamp": "2026-01-15T08:52:15Z",
+      "type": "remote_session",
+      "account": "user-05",
+      "sourceIp": "192.0.2.56",
+      "asset": "DEMO-WS-06",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0057",
+      "timestamp": "2026-01-15T08:53:12Z",
+      "type": "email_flagged",
+      "account": "user-06",
+      "sourceIp": "192.0.2.57",
+      "asset": "DEMO-WS-07",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0058",
+      "timestamp": "2026-01-15T08:54:09Z",
+      "type": "login_failed",
+      "account": "user-07",
+      "sourceIp": "192.0.2.58",
+      "asset": "DEMO-WS-08",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0059",
+      "timestamp": "2026-01-15T08:55:06Z",
+      "type": "file_change",
+      "account": "user-08",
+      "sourceIp": "192.0.2.59",
+      "asset": "DEMO-WS-09",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0060",
+      "timestamp": "2026-01-15T08:56:03Z",
+      "type": "remote_session",
+      "account": "user-09",
+      "sourceIp": "192.0.2.60",
+      "asset": "DEMO-WS-10",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0061",
+      "timestamp": "2026-01-15T08:57:00Z",
+      "type": "email_flagged",
+      "account": "user-10",
+      "sourceIp": "192.0.2.61",
+      "asset": "DEMO-WS-11",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0062",
+      "timestamp": "2026-01-15T08:57:57Z",
+      "type": "login_failed",
+      "account": "user-11",
+      "sourceIp": "192.0.2.62",
+      "asset": "DEMO-WS-12",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0063",
+      "timestamp": "2026-01-15T08:58:54Z",
+      "type": "file_change",
+      "account": "user-12",
+      "sourceIp": "192.0.2.63",
+      "asset": "DEMO-WS-13",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0064",
+      "timestamp": "2026-01-15T08:59:51Z",
+      "type": "remote_session",
+      "account": "user-13",
+      "sourceIp": "192.0.2.64",
+      "asset": "DEMO-WS-14",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0065",
+      "timestamp": "2026-01-15T09:00:48Z",
+      "type": "email_flagged",
+      "account": "user-14",
+      "sourceIp": "192.0.2.65",
+      "asset": "DEMO-WS-15",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0066",
+      "timestamp": "2026-01-15T09:01:45Z",
+      "type": "login_failed",
+      "account": "user-15",
+      "sourceIp": "192.0.2.66",
+      "asset": "DEMO-WS-16",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0067",
+      "timestamp": "2026-01-15T09:02:42Z",
+      "type": "file_change",
+      "account": "user-16",
+      "sourceIp": "192.0.2.67",
+      "asset": "DEMO-WS-17",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0068",
+      "timestamp": "2026-01-15T09:03:39Z",
+      "type": "remote_session",
+      "account": "user-17",
+      "sourceIp": "192.0.2.68",
+      "asset": "DEMO-WS-18",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0069",
+      "timestamp": "2026-01-15T09:04:36Z",
+      "type": "email_flagged",
+      "account": "user-01",
+      "sourceIp": "192.0.2.69",
+      "asset": "DEMO-WS-19",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0070",
+      "timestamp": "2026-01-15T09:05:33Z",
+      "type": "login_failed",
+      "account": "user-02",
+      "sourceIp": "192.0.2.70",
+      "asset": "DEMO-WS-20",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0071",
+      "timestamp": "2026-01-15T09:06:30Z",
+      "type": "file_change",
+      "account": "user-03",
+      "sourceIp": "192.0.2.71",
+      "asset": "DEMO-WS-21",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0072",
+      "timestamp": "2026-01-15T09:07:27Z",
+      "type": "remote_session",
+      "account": "user-04",
+      "sourceIp": "192.0.2.72",
+      "asset": "DEMO-WS-22",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0073",
+      "timestamp": "2026-01-15T09:08:24Z",
+      "type": "email_flagged",
+      "account": "user-05",
+      "sourceIp": "192.0.2.73",
+      "asset": "DEMO-WS-23",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0074",
+      "timestamp": "2026-01-15T09:09:21Z",
+      "type": "login_failed",
+      "account": "user-06",
+      "sourceIp": "192.0.2.74",
+      "asset": "DEMO-WS-24",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0075",
+      "timestamp": "2026-01-15T09:10:18Z",
+      "type": "file_change",
+      "account": "user-07",
+      "sourceIp": "192.0.2.75",
+      "asset": "DEMO-WS-25",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0076",
+      "timestamp": "2026-01-15T09:11:15Z",
+      "type": "remote_session",
+      "account": "user-08",
+      "sourceIp": "192.0.2.76",
+      "asset": "DEMO-WS-01",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0077",
+      "timestamp": "2026-01-15T09:12:12Z",
+      "type": "email_flagged",
+      "account": "user-09",
+      "sourceIp": "192.0.2.77",
+      "asset": "DEMO-WS-02",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0078",
+      "timestamp": "2026-01-15T09:13:09Z",
+      "type": "login_failed",
+      "account": "user-10",
+      "sourceIp": "192.0.2.78",
+      "asset": "DEMO-WS-03",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0079",
+      "timestamp": "2026-01-15T09:14:06Z",
+      "type": "file_change",
+      "account": "user-11",
+      "sourceIp": "192.0.2.79",
+      "asset": "DEMO-WS-04",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0080",
+      "timestamp": "2026-01-15T09:15:03Z",
+      "type": "remote_session",
+      "account": "user-12",
+      "sourceIp": "192.0.2.80",
+      "asset": "DEMO-WS-05",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0081",
+      "timestamp": "2026-01-15T09:16:00Z",
+      "type": "email_flagged",
+      "account": "user-13",
+      "sourceIp": "192.0.2.81",
+      "asset": "DEMO-WS-06",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0082",
+      "timestamp": "2026-01-15T09:16:57Z",
+      "type": "login_failed",
+      "account": "user-14",
+      "sourceIp": "192.0.2.82",
+      "asset": "DEMO-WS-07",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0083",
+      "timestamp": "2026-01-15T09:17:54Z",
+      "type": "file_change",
+      "account": "user-15",
+      "sourceIp": "192.0.2.83",
+      "asset": "DEMO-WS-08",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0084",
+      "timestamp": "2026-01-15T09:18:51Z",
+      "type": "remote_session",
+      "account": "user-16",
+      "sourceIp": "192.0.2.84",
+      "asset": "DEMO-WS-09",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0085",
+      "timestamp": "2026-01-15T09:19:48Z",
+      "type": "email_flagged",
+      "account": "user-17",
+      "sourceIp": "192.0.2.85",
+      "asset": "DEMO-WS-10",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0086",
+      "timestamp": "2026-01-15T09:20:45Z",
+      "type": "login_failed",
+      "account": "user-01",
+      "sourceIp": "192.0.2.86",
+      "asset": "DEMO-WS-11",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0087",
+      "timestamp": "2026-01-15T09:21:42Z",
+      "type": "file_change",
+      "account": "user-02",
+      "sourceIp": "192.0.2.87",
+      "asset": "DEMO-WS-12",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0088",
+      "timestamp": "2026-01-15T09:22:39Z",
+      "type": "remote_session",
+      "account": "user-03",
+      "sourceIp": "192.0.2.88",
+      "asset": "DEMO-WS-13",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0089",
+      "timestamp": "2026-01-15T09:23:36Z",
+      "type": "email_flagged",
+      "account": "user-04",
+      "sourceIp": "192.0.2.89",
+      "asset": "DEMO-WS-14",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0090",
+      "timestamp": "2026-01-15T09:24:33Z",
+      "type": "login_failed",
+      "account": "user-05",
+      "sourceIp": "192.0.2.90",
+      "asset": "DEMO-WS-15",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0091",
+      "timestamp": "2026-01-15T09:25:30Z",
+      "type": "file_change",
+      "account": "user-06",
+      "sourceIp": "192.0.2.91",
+      "asset": "DEMO-WS-16",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0092",
+      "timestamp": "2026-01-15T09:26:27Z",
+      "type": "remote_session",
+      "account": "user-07",
+      "sourceIp": "192.0.2.92",
+      "asset": "DEMO-WS-17",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0093",
+      "timestamp": "2026-01-15T09:27:24Z",
+      "type": "email_flagged",
+      "account": "user-08",
+      "sourceIp": "192.0.2.93",
+      "asset": "DEMO-WS-18",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0094",
+      "timestamp": "2026-01-15T09:28:21Z",
+      "type": "login_failed",
+      "account": "user-09",
+      "sourceIp": "192.0.2.94",
+      "asset": "DEMO-WS-19",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0095",
+      "timestamp": "2026-01-15T09:29:18Z",
+      "type": "file_change",
+      "account": "user-10",
+      "sourceIp": "192.0.2.95",
+      "asset": "DEMO-WS-20",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0096",
+      "timestamp": "2026-01-15T09:30:15Z",
+      "type": "remote_session",
+      "account": "user-11",
+      "sourceIp": "192.0.2.96",
+      "asset": "DEMO-WS-21",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0097",
+      "timestamp": "2026-01-15T09:31:12Z",
+      "type": "email_flagged",
+      "account": "user-12",
+      "sourceIp": "192.0.2.97",
+      "asset": "DEMO-WS-22",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0098",
+      "timestamp": "2026-01-15T09:32:09Z",
+      "type": "login_failed",
+      "account": "user-13",
+      "sourceIp": "192.0.2.98",
+      "asset": "DEMO-WS-23",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0099",
+      "timestamp": "2026-01-15T09:33:06Z",
+      "type": "file_change",
+      "account": "user-14",
+      "sourceIp": "192.0.2.99",
+      "asset": "DEMO-WS-24",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0100",
+      "timestamp": "2026-01-15T09:34:03Z",
+      "type": "remote_session",
+      "account": "user-15",
+      "sourceIp": "192.0.2.100",
+      "asset": "DEMO-WS-25",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0101",
+      "timestamp": "2026-01-15T09:35:00Z",
+      "type": "email_flagged",
+      "account": "user-16",
+      "sourceIp": "192.0.2.101",
+      "asset": "DEMO-WS-01",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0102",
+      "timestamp": "2026-01-15T09:35:57Z",
+      "type": "login_failed",
+      "account": "user-17",
+      "sourceIp": "192.0.2.102",
+      "asset": "DEMO-WS-02",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0103",
+      "timestamp": "2026-01-15T09:36:54Z",
+      "type": "file_change",
+      "account": "user-01",
+      "sourceIp": "192.0.2.103",
+      "asset": "DEMO-WS-03",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0104",
+      "timestamp": "2026-01-15T09:37:51Z",
+      "type": "remote_session",
+      "account": "user-02",
+      "sourceIp": "192.0.2.104",
+      "asset": "DEMO-WS-04",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0105",
+      "timestamp": "2026-01-15T09:38:48Z",
+      "type": "email_flagged",
+      "account": "user-03",
+      "sourceIp": "192.0.2.105",
+      "asset": "DEMO-WS-05",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0106",
+      "timestamp": "2026-01-15T09:39:45Z",
+      "type": "login_failed",
+      "account": "user-04",
+      "sourceIp": "192.0.2.106",
+      "asset": "DEMO-WS-06",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0107",
+      "timestamp": "2026-01-15T09:40:42Z",
+      "type": "file_change",
+      "account": "user-05",
+      "sourceIp": "192.0.2.107",
+      "asset": "DEMO-WS-07",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0108",
+      "timestamp": "2026-01-15T09:41:39Z",
+      "type": "remote_session",
+      "account": "user-06",
+      "sourceIp": "192.0.2.108",
+      "asset": "DEMO-WS-08",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0109",
+      "timestamp": "2026-01-15T09:42:36Z",
+      "type": "email_flagged",
+      "account": "user-07",
+      "sourceIp": "192.0.2.109",
+      "asset": "DEMO-WS-09",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0110",
+      "timestamp": "2026-01-15T09:43:33Z",
+      "type": "login_failed",
+      "account": "user-08",
+      "sourceIp": "192.0.2.110",
+      "asset": "DEMO-WS-10",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0111",
+      "timestamp": "2026-01-15T09:44:30Z",
+      "type": "file_change",
+      "account": "user-09",
+      "sourceIp": "192.0.2.111",
+      "asset": "DEMO-WS-11",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0112",
+      "timestamp": "2026-01-15T09:45:27Z",
+      "type": "remote_session",
+      "account": "user-10",
+      "sourceIp": "192.0.2.112",
+      "asset": "DEMO-WS-12",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0113",
+      "timestamp": "2026-01-15T09:46:24Z",
+      "type": "email_flagged",
+      "account": "user-11",
+      "sourceIp": "192.0.2.113",
+      "asset": "DEMO-WS-13",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0114",
+      "timestamp": "2026-01-15T09:47:21Z",
+      "type": "login_failed",
+      "account": "user-12",
+      "sourceIp": "192.0.2.114",
+      "asset": "DEMO-WS-14",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0115",
+      "timestamp": "2026-01-15T09:48:18Z",
+      "type": "file_change",
+      "account": "user-13",
+      "sourceIp": "192.0.2.115",
+      "asset": "DEMO-WS-15",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0116",
+      "timestamp": "2026-01-15T09:49:15Z",
+      "type": "remote_session",
+      "account": "user-14",
+      "sourceIp": "192.0.2.116",
+      "asset": "DEMO-WS-16",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0117",
+      "timestamp": "2026-01-15T09:50:12Z",
+      "type": "email_flagged",
+      "account": "user-15",
+      "sourceIp": "192.0.2.117",
+      "asset": "DEMO-WS-17",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0118",
+      "timestamp": "2026-01-15T09:51:09Z",
+      "type": "login_failed",
+      "account": "user-16",
+      "sourceIp": "192.0.2.118",
+      "asset": "DEMO-WS-18",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0119",
+      "timestamp": "2026-01-15T09:52:06Z",
+      "type": "file_change",
+      "account": "user-17",
+      "sourceIp": "192.0.2.119",
+      "asset": "DEMO-WS-19",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0120",
+      "timestamp": "2026-01-15T09:53:03Z",
+      "type": "remote_session",
+      "account": "user-01",
+      "sourceIp": "192.0.2.120",
+      "asset": "DEMO-WS-20",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0121",
+      "timestamp": "2026-01-15T09:54:00Z",
+      "type": "email_flagged",
+      "account": "user-02",
+      "sourceIp": "192.0.2.121",
+      "asset": "DEMO-WS-21",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0122",
+      "timestamp": "2026-01-15T09:54:57Z",
+      "type": "login_failed",
+      "account": "user-03",
+      "sourceIp": "192.0.2.122",
+      "asset": "DEMO-WS-22",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0123",
+      "timestamp": "2026-01-15T09:55:54Z",
+      "type": "file_change",
+      "account": "user-04",
+      "sourceIp": "192.0.2.123",
+      "asset": "DEMO-WS-23",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0124",
+      "timestamp": "2026-01-15T09:56:51Z",
+      "type": "remote_session",
+      "account": "user-05",
+      "sourceIp": "192.0.2.124",
+      "asset": "DEMO-WS-24",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0125",
+      "timestamp": "2026-01-15T09:57:48Z",
+      "type": "email_flagged",
+      "account": "user-06",
+      "sourceIp": "192.0.2.125",
+      "asset": "DEMO-WS-25",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0126",
+      "timestamp": "2026-01-15T09:58:45Z",
+      "type": "login_failed",
+      "account": "user-07",
+      "sourceIp": "192.0.2.126",
+      "asset": "DEMO-WS-01",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0127",
+      "timestamp": "2026-01-15T09:59:42Z",
+      "type": "file_change",
+      "account": "user-08",
+      "sourceIp": "192.0.2.127",
+      "asset": "DEMO-WS-02",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0128",
+      "timestamp": "2026-01-15T10:00:39Z",
+      "type": "remote_session",
+      "account": "user-09",
+      "sourceIp": "192.0.2.128",
+      "asset": "DEMO-WS-03",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0129",
+      "timestamp": "2026-01-15T10:01:36Z",
+      "type": "email_flagged",
+      "account": "user-10",
+      "sourceIp": "192.0.2.129",
+      "asset": "DEMO-WS-04",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0130",
+      "timestamp": "2026-01-15T10:02:33Z",
+      "type": "login_failed",
+      "account": "user-11",
+      "sourceIp": "192.0.2.130",
+      "asset": "DEMO-WS-05",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0131",
+      "timestamp": "2026-01-15T10:03:30Z",
+      "type": "file_change",
+      "account": "user-12",
+      "sourceIp": "192.0.2.131",
+      "asset": "DEMO-WS-06",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0132",
+      "timestamp": "2026-01-15T10:04:27Z",
+      "type": "remote_session",
+      "account": "user-13",
+      "sourceIp": "192.0.2.132",
+      "asset": "DEMO-WS-07",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0133",
+      "timestamp": "2026-01-15T10:05:24Z",
+      "type": "email_flagged",
+      "account": "user-14",
+      "sourceIp": "192.0.2.133",
+      "asset": "DEMO-WS-08",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0134",
+      "timestamp": "2026-01-15T10:06:21Z",
+      "type": "login_failed",
+      "account": "user-15",
+      "sourceIp": "192.0.2.134",
+      "asset": "DEMO-WS-09",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0135",
+      "timestamp": "2026-01-15T10:07:18Z",
+      "type": "file_change",
+      "account": "user-16",
+      "sourceIp": "192.0.2.135",
+      "asset": "DEMO-WS-10",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0136",
+      "timestamp": "2026-01-15T10:08:15Z",
+      "type": "remote_session",
+      "account": "user-17",
+      "sourceIp": "192.0.2.136",
+      "asset": "DEMO-WS-11",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0137",
+      "timestamp": "2026-01-15T10:09:12Z",
+      "type": "email_flagged",
+      "account": "user-01",
+      "sourceIp": "192.0.2.137",
+      "asset": "DEMO-WS-12",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0138",
+      "timestamp": "2026-01-15T10:10:09Z",
+      "type": "login_failed",
+      "account": "user-02",
+      "sourceIp": "192.0.2.138",
+      "asset": "DEMO-WS-13",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0139",
+      "timestamp": "2026-01-15T10:11:06Z",
+      "type": "file_change",
+      "account": "user-03",
+      "sourceIp": "192.0.2.139",
+      "asset": "DEMO-WS-14",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0140",
+      "timestamp": "2026-01-15T10:12:03Z",
+      "type": "remote_session",
+      "account": "user-04",
+      "sourceIp": "192.0.2.140",
+      "asset": "DEMO-WS-15",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0141",
+      "timestamp": "2026-01-15T10:13:00Z",
+      "type": "email_flagged",
+      "account": "user-05",
+      "sourceIp": "192.0.2.141",
+      "asset": "DEMO-WS-16",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0142",
+      "timestamp": "2026-01-15T10:13:57Z",
+      "type": "login_failed",
+      "account": "user-06",
+      "sourceIp": "192.0.2.142",
+      "asset": "DEMO-WS-17",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0143",
+      "timestamp": "2026-01-15T10:14:54Z",
+      "type": "file_change",
+      "account": "user-07",
+      "sourceIp": "192.0.2.143",
+      "asset": "DEMO-WS-18",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0144",
+      "timestamp": "2026-01-15T10:15:51Z",
+      "type": "remote_session",
+      "account": "user-08",
+      "sourceIp": "192.0.2.144",
+      "asset": "DEMO-WS-19",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0145",
+      "timestamp": "2026-01-15T10:16:48Z",
+      "type": "email_flagged",
+      "account": "user-09",
+      "sourceIp": "192.0.2.145",
+      "asset": "DEMO-WS-20",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0146",
+      "timestamp": "2026-01-15T10:17:45Z",
+      "type": "login_failed",
+      "account": "user-10",
+      "sourceIp": "192.0.2.146",
+      "asset": "DEMO-WS-21",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0147",
+      "timestamp": "2026-01-15T10:18:42Z",
+      "type": "file_change",
+      "account": "user-11",
+      "sourceIp": "192.0.2.147",
+      "asset": "DEMO-WS-22",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0148",
+      "timestamp": "2026-01-15T10:19:39Z",
+      "type": "remote_session",
+      "account": "user-12",
+      "sourceIp": "192.0.2.148",
+      "asset": "DEMO-WS-23",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0149",
+      "timestamp": "2026-01-15T10:20:36Z",
+      "type": "email_flagged",
+      "account": "user-13",
+      "sourceIp": "192.0.2.149",
+      "asset": "DEMO-WS-24",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0150",
+      "timestamp": "2026-01-15T10:21:33Z",
+      "type": "login_failed",
+      "account": "user-14",
+      "sourceIp": "192.0.2.150",
+      "asset": "DEMO-WS-25",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0151",
+      "timestamp": "2026-01-15T10:22:30Z",
+      "type": "file_change",
+      "account": "user-15",
+      "sourceIp": "192.0.2.151",
+      "asset": "DEMO-WS-01",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0152",
+      "timestamp": "2026-01-15T10:23:27Z",
+      "type": "remote_session",
+      "account": "user-16",
+      "sourceIp": "192.0.2.152",
+      "asset": "DEMO-WS-02",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0153",
+      "timestamp": "2026-01-15T10:24:24Z",
+      "type": "email_flagged",
+      "account": "user-17",
+      "sourceIp": "192.0.2.153",
+      "asset": "DEMO-WS-03",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0154",
+      "timestamp": "2026-01-15T10:25:21Z",
+      "type": "login_failed",
+      "account": "user-01",
+      "sourceIp": "192.0.2.154",
+      "asset": "DEMO-WS-04",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0155",
+      "timestamp": "2026-01-15T10:26:18Z",
+      "type": "file_change",
+      "account": "user-02",
+      "sourceIp": "192.0.2.155",
+      "asset": "DEMO-WS-05",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0156",
+      "timestamp": "2026-01-15T10:27:15Z",
+      "type": "remote_session",
+      "account": "user-03",
+      "sourceIp": "192.0.2.156",
+      "asset": "DEMO-WS-06",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0157",
+      "timestamp": "2026-01-15T10:28:12Z",
+      "type": "email_flagged",
+      "account": "user-04",
+      "sourceIp": "192.0.2.157",
+      "asset": "DEMO-WS-07",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0158",
+      "timestamp": "2026-01-15T10:29:09Z",
+      "type": "login_failed",
+      "account": "user-05",
+      "sourceIp": "192.0.2.158",
+      "asset": "DEMO-WS-08",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0159",
+      "timestamp": "2026-01-15T10:30:06Z",
+      "type": "file_change",
+      "account": "user-06",
+      "sourceIp": "192.0.2.159",
+      "asset": "DEMO-WS-09",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0160",
+      "timestamp": "2026-01-15T10:31:03Z",
+      "type": "remote_session",
+      "account": "user-07",
+      "sourceIp": "192.0.2.160",
+      "asset": "DEMO-WS-10",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0161",
+      "timestamp": "2026-01-15T10:32:00Z",
+      "type": "email_flagged",
+      "account": "user-08",
+      "sourceIp": "192.0.2.161",
+      "asset": "DEMO-WS-11",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0162",
+      "timestamp": "2026-01-15T10:32:57Z",
+      "type": "login_failed",
+      "account": "user-09",
+      "sourceIp": "192.0.2.162",
+      "asset": "DEMO-WS-12",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0163",
+      "timestamp": "2026-01-15T10:33:54Z",
+      "type": "file_change",
+      "account": "user-10",
+      "sourceIp": "192.0.2.163",
+      "asset": "DEMO-WS-13",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0164",
+      "timestamp": "2026-01-15T10:34:51Z",
+      "type": "remote_session",
+      "account": "user-11",
+      "sourceIp": "192.0.2.164",
+      "asset": "DEMO-WS-14",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0165",
+      "timestamp": "2026-01-15T10:35:48Z",
+      "type": "email_flagged",
+      "account": "user-12",
+      "sourceIp": "192.0.2.165",
+      "asset": "DEMO-WS-15",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0166",
+      "timestamp": "2026-01-15T10:36:45Z",
+      "type": "login_failed",
+      "account": "user-13",
+      "sourceIp": "192.0.2.166",
+      "asset": "DEMO-WS-16",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0167",
+      "timestamp": "2026-01-15T10:37:42Z",
+      "type": "file_change",
+      "account": "user-14",
+      "sourceIp": "192.0.2.167",
+      "asset": "DEMO-WS-17",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0168",
+      "timestamp": "2026-01-15T10:38:39Z",
+      "type": "remote_session",
+      "account": "user-15",
+      "sourceIp": "192.0.2.168",
+      "asset": "DEMO-WS-18",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0169",
+      "timestamp": "2026-01-15T10:39:36Z",
+      "type": "email_flagged",
+      "account": "user-16",
+      "sourceIp": "192.0.2.169",
+      "asset": "DEMO-WS-19",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0170",
+      "timestamp": "2026-01-15T10:40:33Z",
+      "type": "login_failed",
+      "account": "user-17",
+      "sourceIp": "192.0.2.170",
+      "asset": "DEMO-WS-20",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0171",
+      "timestamp": "2026-01-15T10:41:30Z",
+      "type": "file_change",
+      "account": "user-01",
+      "sourceIp": "192.0.2.171",
+      "asset": "DEMO-WS-21",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0172",
+      "timestamp": "2026-01-15T10:42:27Z",
+      "type": "remote_session",
+      "account": "user-02",
+      "sourceIp": "192.0.2.172",
+      "asset": "DEMO-WS-22",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0173",
+      "timestamp": "2026-01-15T10:43:24Z",
+      "type": "email_flagged",
+      "account": "user-03",
+      "sourceIp": "192.0.2.173",
+      "asset": "DEMO-WS-23",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0174",
+      "timestamp": "2026-01-15T10:44:21Z",
+      "type": "login_failed",
+      "account": "user-04",
+      "sourceIp": "192.0.2.174",
+      "asset": "DEMO-WS-24",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0175",
+      "timestamp": "2026-01-15T10:45:18Z",
+      "type": "file_change",
+      "account": "user-05",
+      "sourceIp": "192.0.2.175",
+      "asset": "DEMO-WS-25",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0176",
+      "timestamp": "2026-01-15T10:46:15Z",
+      "type": "remote_session",
+      "account": "user-06",
+      "sourceIp": "192.0.2.176",
+      "asset": "DEMO-WS-01",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0177",
+      "timestamp": "2026-01-15T10:47:12Z",
+      "type": "email_flagged",
+      "account": "user-07",
+      "sourceIp": "192.0.2.177",
+      "asset": "DEMO-WS-02",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0178",
+      "timestamp": "2026-01-15T10:48:09Z",
+      "type": "login_failed",
+      "account": "user-08",
+      "sourceIp": "192.0.2.178",
+      "asset": "DEMO-WS-03",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0179",
+      "timestamp": "2026-01-15T10:49:06Z",
+      "type": "file_change",
+      "account": "user-09",
+      "sourceIp": "192.0.2.179",
+      "asset": "DEMO-WS-04",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0180",
+      "timestamp": "2026-01-15T10:50:03Z",
+      "type": "remote_session",
+      "account": "user-10",
+      "sourceIp": "192.0.2.180",
+      "asset": "DEMO-WS-05",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0181",
+      "timestamp": "2026-01-15T10:51:00Z",
+      "type": "email_flagged",
+      "account": "user-11",
+      "sourceIp": "192.0.2.181",
+      "asset": "DEMO-WS-06",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0182",
+      "timestamp": "2026-01-15T10:51:57Z",
+      "type": "login_failed",
+      "account": "user-12",
+      "sourceIp": "192.0.2.182",
+      "asset": "DEMO-WS-07",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0183",
+      "timestamp": "2026-01-15T10:52:54Z",
+      "type": "file_change",
+      "account": "user-13",
+      "sourceIp": "192.0.2.183",
+      "asset": "DEMO-WS-08",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0184",
+      "timestamp": "2026-01-15T10:53:51Z",
+      "type": "remote_session",
+      "account": "user-14",
+      "sourceIp": "192.0.2.184",
+      "asset": "DEMO-WS-09",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0185",
+      "timestamp": "2026-01-15T10:54:48Z",
+      "type": "email_flagged",
+      "account": "user-15",
+      "sourceIp": "192.0.2.185",
+      "asset": "DEMO-WS-10",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0186",
+      "timestamp": "2026-01-15T10:55:45Z",
+      "type": "login_failed",
+      "account": "user-16",
+      "sourceIp": "192.0.2.186",
+      "asset": "DEMO-WS-11",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0187",
+      "timestamp": "2026-01-15T10:56:42Z",
+      "type": "file_change",
+      "account": "user-17",
+      "sourceIp": "192.0.2.187",
+      "asset": "DEMO-WS-12",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0188",
+      "timestamp": "2026-01-15T10:57:39Z",
+      "type": "remote_session",
+      "account": "user-01",
+      "sourceIp": "192.0.2.188",
+      "asset": "DEMO-WS-13",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0189",
+      "timestamp": "2026-01-15T10:58:36Z",
+      "type": "email_flagged",
+      "account": "user-02",
+      "sourceIp": "192.0.2.189",
+      "asset": "DEMO-WS-14",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0190",
+      "timestamp": "2026-01-15T10:59:33Z",
+      "type": "login_failed",
+      "account": "user-03",
+      "sourceIp": "192.0.2.190",
+      "asset": "DEMO-WS-15",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0191",
+      "timestamp": "2026-01-15T11:00:30Z",
+      "type": "file_change",
+      "account": "user-04",
+      "sourceIp": "192.0.2.191",
+      "asset": "DEMO-WS-16",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0192",
+      "timestamp": "2026-01-15T11:01:27Z",
+      "type": "remote_session",
+      "account": "user-05",
+      "sourceIp": "192.0.2.192",
+      "asset": "DEMO-WS-17",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0193",
+      "timestamp": "2026-01-15T11:02:24Z",
+      "type": "email_flagged",
+      "account": "user-06",
+      "sourceIp": "192.0.2.193",
+      "asset": "DEMO-WS-18",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0194",
+      "timestamp": "2026-01-15T11:03:21Z",
+      "type": "login_failed",
+      "account": "user-07",
+      "sourceIp": "192.0.2.194",
+      "asset": "DEMO-WS-19",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0195",
+      "timestamp": "2026-01-15T11:04:18Z",
+      "type": "file_change",
+      "account": "user-08",
+      "sourceIp": "192.0.2.195",
+      "asset": "DEMO-WS-20",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0196",
+      "timestamp": "2026-01-15T11:05:15Z",
+      "type": "remote_session",
+      "account": "user-09",
+      "sourceIp": "192.0.2.196",
+      "asset": "DEMO-WS-21",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0197",
+      "timestamp": "2026-01-15T11:06:12Z",
+      "type": "email_flagged",
+      "account": "user-10",
+      "sourceIp": "192.0.2.197",
+      "asset": "DEMO-WS-22",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0198",
+      "timestamp": "2026-01-15T11:07:09Z",
+      "type": "login_failed",
+      "account": "user-11",
+      "sourceIp": "192.0.2.198",
+      "asset": "DEMO-WS-23",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0199",
+      "timestamp": "2026-01-15T11:08:06Z",
+      "type": "file_change",
+      "account": "user-12",
+      "sourceIp": "192.0.2.199",
+      "asset": "DEMO-WS-24",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0200",
+      "timestamp": "2026-01-15T11:09:03Z",
+      "type": "remote_session",
+      "account": "user-13",
+      "sourceIp": "192.0.2.200",
+      "asset": "DEMO-WS-25",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0201",
+      "timestamp": "2026-01-15T11:10:00Z",
+      "type": "email_flagged",
+      "account": "user-14",
+      "sourceIp": "192.0.2.1",
+      "asset": "DEMO-WS-01",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0202",
+      "timestamp": "2026-01-15T11:10:57Z",
+      "type": "login_failed",
+      "account": "user-15",
+      "sourceIp": "192.0.2.2",
+      "asset": "DEMO-WS-02",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0203",
+      "timestamp": "2026-01-15T11:11:54Z",
+      "type": "file_change",
+      "account": "user-16",
+      "sourceIp": "192.0.2.3",
+      "asset": "DEMO-WS-03",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0204",
+      "timestamp": "2026-01-15T11:12:51Z",
+      "type": "remote_session",
+      "account": "user-17",
+      "sourceIp": "192.0.2.4",
+      "asset": "DEMO-WS-04",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0205",
+      "timestamp": "2026-01-15T11:13:48Z",
+      "type": "email_flagged",
+      "account": "user-01",
+      "sourceIp": "192.0.2.5",
+      "asset": "DEMO-WS-05",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0206",
+      "timestamp": "2026-01-15T11:14:45Z",
+      "type": "login_failed",
+      "account": "user-02",
+      "sourceIp": "192.0.2.6",
+      "asset": "DEMO-WS-06",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0207",
+      "timestamp": "2026-01-15T11:15:42Z",
+      "type": "file_change",
+      "account": "user-03",
+      "sourceIp": "192.0.2.7",
+      "asset": "DEMO-WS-07",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0208",
+      "timestamp": "2026-01-15T11:16:39Z",
+      "type": "remote_session",
+      "account": "user-04",
+      "sourceIp": "192.0.2.8",
+      "asset": "DEMO-WS-08",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0209",
+      "timestamp": "2026-01-15T11:17:36Z",
+      "type": "email_flagged",
+      "account": "user-05",
+      "sourceIp": "192.0.2.9",
+      "asset": "DEMO-WS-09",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0210",
+      "timestamp": "2026-01-15T11:18:33Z",
+      "type": "login_failed",
+      "account": "user-06",
+      "sourceIp": "192.0.2.10",
+      "asset": "DEMO-WS-10",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0211",
+      "timestamp": "2026-01-15T11:19:30Z",
+      "type": "file_change",
+      "account": "user-07",
+      "sourceIp": "192.0.2.11",
+      "asset": "DEMO-WS-11",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0212",
+      "timestamp": "2026-01-15T11:20:27Z",
+      "type": "remote_session",
+      "account": "user-08",
+      "sourceIp": "192.0.2.12",
+      "asset": "DEMO-WS-12",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0213",
+      "timestamp": "2026-01-15T11:21:24Z",
+      "type": "email_flagged",
+      "account": "user-09",
+      "sourceIp": "192.0.2.13",
+      "asset": "DEMO-WS-13",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0214",
+      "timestamp": "2026-01-15T11:22:21Z",
+      "type": "login_failed",
+      "account": "user-10",
+      "sourceIp": "192.0.2.14",
+      "asset": "DEMO-WS-14",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0215",
+      "timestamp": "2026-01-15T11:23:18Z",
+      "type": "file_change",
+      "account": "user-11",
+      "sourceIp": "192.0.2.15",
+      "asset": "DEMO-WS-15",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0216",
+      "timestamp": "2026-01-15T11:24:15Z",
+      "type": "remote_session",
+      "account": "user-12",
+      "sourceIp": "192.0.2.16",
+      "asset": "DEMO-WS-16",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0217",
+      "timestamp": "2026-01-15T11:25:12Z",
+      "type": "email_flagged",
+      "account": "user-13",
+      "sourceIp": "192.0.2.17",
+      "asset": "DEMO-WS-17",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0218",
+      "timestamp": "2026-01-15T11:26:09Z",
+      "type": "login_failed",
+      "account": "user-14",
+      "sourceIp": "192.0.2.18",
+      "asset": "DEMO-WS-18",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0219",
+      "timestamp": "2026-01-15T11:27:06Z",
+      "type": "file_change",
+      "account": "user-15",
+      "sourceIp": "192.0.2.19",
+      "asset": "DEMO-WS-19",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0220",
+      "timestamp": "2026-01-15T11:28:03Z",
+      "type": "remote_session",
+      "account": "user-16",
+      "sourceIp": "192.0.2.20",
+      "asset": "DEMO-WS-20",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0221",
+      "timestamp": "2026-01-15T11:29:00Z",
+      "type": "email_flagged",
+      "account": "user-17",
+      "sourceIp": "192.0.2.21",
+      "asset": "DEMO-WS-21",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0222",
+      "timestamp": "2026-01-15T11:29:57Z",
+      "type": "login_failed",
+      "account": "user-01",
+      "sourceIp": "192.0.2.22",
+      "asset": "DEMO-WS-22",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0223",
+      "timestamp": "2026-01-15T11:30:54Z",
+      "type": "file_change",
+      "account": "user-02",
+      "sourceIp": "192.0.2.23",
+      "asset": "DEMO-WS-23",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0224",
+      "timestamp": "2026-01-15T11:31:51Z",
+      "type": "remote_session",
+      "account": "user-03",
+      "sourceIp": "192.0.2.24",
+      "asset": "DEMO-WS-24",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0225",
+      "timestamp": "2026-01-15T11:32:48Z",
+      "type": "email_flagged",
+      "account": "user-04",
+      "sourceIp": "192.0.2.25",
+      "asset": "DEMO-WS-25",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0226",
+      "timestamp": "2026-01-15T11:33:45Z",
+      "type": "login_failed",
+      "account": "user-05",
+      "sourceIp": "192.0.2.26",
+      "asset": "DEMO-WS-01",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0227",
+      "timestamp": "2026-01-15T11:34:42Z",
+      "type": "file_change",
+      "account": "user-06",
+      "sourceIp": "192.0.2.27",
+      "asset": "DEMO-WS-02",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0228",
+      "timestamp": "2026-01-15T11:35:39Z",
+      "type": "remote_session",
+      "account": "user-07",
+      "sourceIp": "192.0.2.28",
+      "asset": "DEMO-WS-03",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0229",
+      "timestamp": "2026-01-15T11:36:36Z",
+      "type": "email_flagged",
+      "account": "user-08",
+      "sourceIp": "192.0.2.29",
+      "asset": "DEMO-WS-04",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0230",
+      "timestamp": "2026-01-15T11:37:33Z",
+      "type": "login_failed",
+      "account": "user-09",
+      "sourceIp": "192.0.2.30",
+      "asset": "DEMO-WS-05",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0231",
+      "timestamp": "2026-01-15T11:38:30Z",
+      "type": "file_change",
+      "account": "user-10",
+      "sourceIp": "192.0.2.31",
+      "asset": "DEMO-WS-06",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0232",
+      "timestamp": "2026-01-15T11:39:27Z",
+      "type": "remote_session",
+      "account": "user-11",
+      "sourceIp": "192.0.2.32",
+      "asset": "DEMO-WS-07",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0233",
+      "timestamp": "2026-01-15T11:40:24Z",
+      "type": "email_flagged",
+      "account": "user-12",
+      "sourceIp": "192.0.2.33",
+      "asset": "DEMO-WS-08",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0234",
+      "timestamp": "2026-01-15T11:41:21Z",
+      "type": "login_failed",
+      "account": "user-13",
+      "sourceIp": "192.0.2.34",
+      "asset": "DEMO-WS-09",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0235",
+      "timestamp": "2026-01-15T11:42:18Z",
+      "type": "file_change",
+      "account": "user-14",
+      "sourceIp": "192.0.2.35",
+      "asset": "DEMO-WS-10",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0236",
+      "timestamp": "2026-01-15T11:43:15Z",
+      "type": "remote_session",
+      "account": "user-15",
+      "sourceIp": "192.0.2.36",
+      "asset": "DEMO-WS-11",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0237",
+      "timestamp": "2026-01-15T11:44:12Z",
+      "type": "email_flagged",
+      "account": "user-16",
+      "sourceIp": "192.0.2.37",
+      "asset": "DEMO-WS-12",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0238",
+      "timestamp": "2026-01-15T11:45:09Z",
+      "type": "login_failed",
+      "account": "user-17",
+      "sourceIp": "192.0.2.38",
+      "asset": "DEMO-WS-13",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0239",
+      "timestamp": "2026-01-15T11:46:06Z",
+      "type": "file_change",
+      "account": "user-01",
+      "sourceIp": "192.0.2.39",
+      "asset": "DEMO-WS-14",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0240",
+      "timestamp": "2026-01-15T11:47:03Z",
+      "type": "remote_session",
+      "account": "user-02",
+      "sourceIp": "192.0.2.40",
+      "asset": "DEMO-WS-15",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0241",
+      "timestamp": "2026-01-15T11:48:00Z",
+      "type": "email_flagged",
+      "account": "user-03",
+      "sourceIp": "192.0.2.41",
+      "asset": "DEMO-WS-16",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0242",
+      "timestamp": "2026-01-15T11:48:57Z",
+      "type": "login_failed",
+      "account": "user-04",
+      "sourceIp": "192.0.2.42",
+      "asset": "DEMO-WS-17",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0243",
+      "timestamp": "2026-01-15T11:49:54Z",
+      "type": "file_change",
+      "account": "user-05",
+      "sourceIp": "192.0.2.43",
+      "asset": "DEMO-WS-18",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0244",
+      "timestamp": "2026-01-15T11:50:51Z",
+      "type": "remote_session",
+      "account": "user-06",
+      "sourceIp": "192.0.2.44",
+      "asset": "DEMO-WS-19",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0245",
+      "timestamp": "2026-01-15T11:51:48Z",
+      "type": "email_flagged",
+      "account": "user-07",
+      "sourceIp": "192.0.2.45",
+      "asset": "DEMO-WS-20",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0246",
+      "timestamp": "2026-01-15T11:52:45Z",
+      "type": "login_failed",
+      "account": "user-08",
+      "sourceIp": "192.0.2.46",
+      "asset": "DEMO-WS-21",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0247",
+      "timestamp": "2026-01-15T11:53:42Z",
+      "type": "file_change",
+      "account": "user-09",
+      "sourceIp": "192.0.2.47",
+      "asset": "DEMO-WS-22",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0248",
+      "timestamp": "2026-01-15T11:54:39Z",
+      "type": "remote_session",
+      "account": "user-10",
+      "sourceIp": "192.0.2.48",
+      "asset": "DEMO-WS-23",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0249",
+      "timestamp": "2026-01-15T11:55:36Z",
+      "type": "email_flagged",
+      "account": "user-11",
+      "sourceIp": "192.0.2.49",
+      "asset": "DEMO-WS-24",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0250",
+      "timestamp": "2026-01-15T11:56:33Z",
+      "type": "login_failed",
+      "account": "user-12",
+      "sourceIp": "192.0.2.50",
+      "asset": "DEMO-WS-25",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0251",
+      "timestamp": "2026-01-15T11:57:30Z",
+      "type": "file_change",
+      "account": "user-13",
+      "sourceIp": "192.0.2.51",
+      "asset": "DEMO-WS-01",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0252",
+      "timestamp": "2026-01-15T11:58:27Z",
+      "type": "remote_session",
+      "account": "user-14",
+      "sourceIp": "192.0.2.52",
+      "asset": "DEMO-WS-02",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0253",
+      "timestamp": "2026-01-15T11:59:24Z",
+      "type": "email_flagged",
+      "account": "user-15",
+      "sourceIp": "192.0.2.53",
+      "asset": "DEMO-WS-03",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0254",
+      "timestamp": "2026-01-15T12:00:21Z",
+      "type": "login_failed",
+      "account": "user-16",
+      "sourceIp": "192.0.2.54",
+      "asset": "DEMO-WS-04",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0255",
+      "timestamp": "2026-01-15T12:01:18Z",
+      "type": "file_change",
+      "account": "user-17",
+      "sourceIp": "192.0.2.55",
+      "asset": "DEMO-WS-05",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0256",
+      "timestamp": "2026-01-15T12:02:15Z",
+      "type": "remote_session",
+      "account": "user-01",
+      "sourceIp": "192.0.2.56",
+      "asset": "DEMO-WS-06",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0257",
+      "timestamp": "2026-01-15T12:03:12Z",
+      "type": "email_flagged",
+      "account": "user-02",
+      "sourceIp": "192.0.2.57",
+      "asset": "DEMO-WS-07",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0258",
+      "timestamp": "2026-01-15T12:04:09Z",
+      "type": "login_failed",
+      "account": "user-03",
+      "sourceIp": "192.0.2.58",
+      "asset": "DEMO-WS-08",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0259",
+      "timestamp": "2026-01-15T12:05:06Z",
+      "type": "file_change",
+      "account": "user-04",
+      "sourceIp": "192.0.2.59",
+      "asset": "DEMO-WS-09",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0260",
+      "timestamp": "2026-01-15T12:06:03Z",
+      "type": "remote_session",
+      "account": "user-05",
+      "sourceIp": "192.0.2.60",
+      "asset": "DEMO-WS-10",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0261",
+      "timestamp": "2026-01-15T12:07:00Z",
+      "type": "email_flagged",
+      "account": "user-06",
+      "sourceIp": "192.0.2.61",
+      "asset": "DEMO-WS-11",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0262",
+      "timestamp": "2026-01-15T12:07:57Z",
+      "type": "login_failed",
+      "account": "user-07",
+      "sourceIp": "192.0.2.62",
+      "asset": "DEMO-WS-12",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0263",
+      "timestamp": "2026-01-15T12:08:54Z",
+      "type": "file_change",
+      "account": "user-08",
+      "sourceIp": "192.0.2.63",
+      "asset": "DEMO-WS-13",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0264",
+      "timestamp": "2026-01-15T12:09:51Z",
+      "type": "remote_session",
+      "account": "user-09",
+      "sourceIp": "192.0.2.64",
+      "asset": "DEMO-WS-14",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0265",
+      "timestamp": "2026-01-15T12:10:48Z",
+      "type": "email_flagged",
+      "account": "user-10",
+      "sourceIp": "192.0.2.65",
+      "asset": "DEMO-WS-15",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0266",
+      "timestamp": "2026-01-15T12:11:45Z",
+      "type": "login_failed",
+      "account": "user-11",
+      "sourceIp": "192.0.2.66",
+      "asset": "DEMO-WS-16",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0267",
+      "timestamp": "2026-01-15T12:12:42Z",
+      "type": "file_change",
+      "account": "user-12",
+      "sourceIp": "192.0.2.67",
+      "asset": "DEMO-WS-17",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0268",
+      "timestamp": "2026-01-15T12:13:39Z",
+      "type": "remote_session",
+      "account": "user-13",
+      "sourceIp": "192.0.2.68",
+      "asset": "DEMO-WS-18",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0269",
+      "timestamp": "2026-01-15T12:14:36Z",
+      "type": "email_flagged",
+      "account": "user-14",
+      "sourceIp": "192.0.2.69",
+      "asset": "DEMO-WS-19",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0270",
+      "timestamp": "2026-01-15T12:15:33Z",
+      "type": "login_failed",
+      "account": "user-15",
+      "sourceIp": "192.0.2.70",
+      "asset": "DEMO-WS-20",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0271",
+      "timestamp": "2026-01-15T12:16:30Z",
+      "type": "file_change",
+      "account": "user-16",
+      "sourceIp": "192.0.2.71",
+      "asset": "DEMO-WS-21",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0272",
+      "timestamp": "2026-01-15T12:17:27Z",
+      "type": "remote_session",
+      "account": "user-17",
+      "sourceIp": "192.0.2.72",
+      "asset": "DEMO-WS-22",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0273",
+      "timestamp": "2026-01-15T12:18:24Z",
+      "type": "email_flagged",
+      "account": "user-01",
+      "sourceIp": "192.0.2.73",
+      "asset": "DEMO-WS-23",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0274",
+      "timestamp": "2026-01-15T12:19:21Z",
+      "type": "login_failed",
+      "account": "user-02",
+      "sourceIp": "192.0.2.74",
+      "asset": "DEMO-WS-24",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0275",
+      "timestamp": "2026-01-15T12:20:18Z",
+      "type": "file_change",
+      "account": "user-03",
+      "sourceIp": "192.0.2.75",
+      "asset": "DEMO-WS-25",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0276",
+      "timestamp": "2026-01-15T12:21:15Z",
+      "type": "remote_session",
+      "account": "user-04",
+      "sourceIp": "192.0.2.76",
+      "asset": "DEMO-WS-01",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0277",
+      "timestamp": "2026-01-15T12:22:12Z",
+      "type": "email_flagged",
+      "account": "user-05",
+      "sourceIp": "192.0.2.77",
+      "asset": "DEMO-WS-02",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0278",
+      "timestamp": "2026-01-15T12:23:09Z",
+      "type": "login_failed",
+      "account": "user-06",
+      "sourceIp": "192.0.2.78",
+      "asset": "DEMO-WS-03",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0279",
+      "timestamp": "2026-01-15T12:24:06Z",
+      "type": "file_change",
+      "account": "user-07",
+      "sourceIp": "192.0.2.79",
+      "asset": "DEMO-WS-04",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0280",
+      "timestamp": "2026-01-15T12:25:03Z",
+      "type": "remote_session",
+      "account": "user-08",
+      "sourceIp": "192.0.2.80",
+      "asset": "DEMO-WS-05",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0281",
+      "timestamp": "2026-01-15T12:26:00Z",
+      "type": "email_flagged",
+      "account": "user-09",
+      "sourceIp": "192.0.2.81",
+      "asset": "DEMO-WS-06",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0282",
+      "timestamp": "2026-01-15T12:26:57Z",
+      "type": "login_failed",
+      "account": "user-10",
+      "sourceIp": "192.0.2.82",
+      "asset": "DEMO-WS-07",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0283",
+      "timestamp": "2026-01-15T12:27:54Z",
+      "type": "file_change",
+      "account": "user-11",
+      "sourceIp": "192.0.2.83",
+      "asset": "DEMO-WS-08",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0284",
+      "timestamp": "2026-01-15T12:28:51Z",
+      "type": "remote_session",
+      "account": "user-12",
+      "sourceIp": "192.0.2.84",
+      "asset": "DEMO-WS-09",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0285",
+      "timestamp": "2026-01-15T12:29:48Z",
+      "type": "email_flagged",
+      "account": "user-13",
+      "sourceIp": "192.0.2.85",
+      "asset": "DEMO-WS-10",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0286",
+      "timestamp": "2026-01-15T12:30:45Z",
+      "type": "login_failed",
+      "account": "user-14",
+      "sourceIp": "192.0.2.86",
+      "asset": "DEMO-WS-11",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0287",
+      "timestamp": "2026-01-15T12:31:42Z",
+      "type": "file_change",
+      "account": "user-15",
+      "sourceIp": "192.0.2.87",
+      "asset": "DEMO-WS-12",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0288",
+      "timestamp": "2026-01-15T12:32:39Z",
+      "type": "remote_session",
+      "account": "user-16",
+      "sourceIp": "192.0.2.88",
+      "asset": "DEMO-WS-13",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0289",
+      "timestamp": "2026-01-15T12:33:36Z",
+      "type": "email_flagged",
+      "account": "user-17",
+      "sourceIp": "192.0.2.89",
+      "asset": "DEMO-WS-14",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0290",
+      "timestamp": "2026-01-15T12:34:33Z",
+      "type": "login_failed",
+      "account": "user-01",
+      "sourceIp": "192.0.2.90",
+      "asset": "DEMO-WS-15",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0291",
+      "timestamp": "2026-01-15T12:35:30Z",
+      "type": "file_change",
+      "account": "user-02",
+      "sourceIp": "192.0.2.91",
+      "asset": "DEMO-WS-16",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0292",
+      "timestamp": "2026-01-15T12:36:27Z",
+      "type": "remote_session",
+      "account": "user-03",
+      "sourceIp": "192.0.2.92",
+      "asset": "DEMO-WS-17",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0293",
+      "timestamp": "2026-01-15T12:37:24Z",
+      "type": "email_flagged",
+      "account": "user-04",
+      "sourceIp": "192.0.2.93",
+      "asset": "DEMO-WS-18",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0294",
+      "timestamp": "2026-01-15T12:38:21Z",
+      "type": "login_failed",
+      "account": "user-05",
+      "sourceIp": "192.0.2.94",
+      "asset": "DEMO-WS-19",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0295",
+      "timestamp": "2026-01-15T12:39:18Z",
+      "type": "file_change",
+      "account": "user-06",
+      "sourceIp": "192.0.2.95",
+      "asset": "DEMO-WS-20",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0296",
+      "timestamp": "2026-01-15T12:40:15Z",
+      "type": "remote_session",
+      "account": "user-07",
+      "sourceIp": "192.0.2.96",
+      "asset": "DEMO-WS-21",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0297",
+      "timestamp": "2026-01-15T12:41:12Z",
+      "type": "email_flagged",
+      "account": "user-08",
+      "sourceIp": "192.0.2.97",
+      "asset": "DEMO-WS-22",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0298",
+      "timestamp": "2026-01-15T12:42:09Z",
+      "type": "login_failed",
+      "account": "user-09",
+      "sourceIp": "192.0.2.98",
+      "asset": "DEMO-WS-23",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0299",
+      "timestamp": "2026-01-15T12:43:06Z",
+      "type": "file_change",
+      "account": "user-10",
+      "sourceIp": "192.0.2.99",
+      "asset": "DEMO-WS-24",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0300",
+      "timestamp": "2026-01-15T12:44:03Z",
+      "type": "remote_session",
+      "account": "user-11",
+      "sourceIp": "192.0.2.100",
+      "asset": "DEMO-WS-25",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0301",
+      "timestamp": "2026-01-15T12:45:00Z",
+      "type": "email_flagged",
+      "account": "user-12",
+      "sourceIp": "192.0.2.101",
+      "asset": "DEMO-WS-01",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0302",
+      "timestamp": "2026-01-15T12:45:57Z",
+      "type": "login_failed",
+      "account": "user-13",
+      "sourceIp": "192.0.2.102",
+      "asset": "DEMO-WS-02",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0303",
+      "timestamp": "2026-01-15T12:46:54Z",
+      "type": "file_change",
+      "account": "user-14",
+      "sourceIp": "192.0.2.103",
+      "asset": "DEMO-WS-03",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0304",
+      "timestamp": "2026-01-15T12:47:51Z",
+      "type": "remote_session",
+      "account": "user-15",
+      "sourceIp": "192.0.2.104",
+      "asset": "DEMO-WS-04",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0305",
+      "timestamp": "2026-01-15T12:48:48Z",
+      "type": "email_flagged",
+      "account": "user-16",
+      "sourceIp": "192.0.2.105",
+      "asset": "DEMO-WS-05",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0306",
+      "timestamp": "2026-01-15T12:49:45Z",
+      "type": "login_failed",
+      "account": "user-17",
+      "sourceIp": "192.0.2.106",
+      "asset": "DEMO-WS-06",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0307",
+      "timestamp": "2026-01-15T12:50:42Z",
+      "type": "file_change",
+      "account": "user-01",
+      "sourceIp": "192.0.2.107",
+      "asset": "DEMO-WS-07",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0308",
+      "timestamp": "2026-01-15T12:51:39Z",
+      "type": "remote_session",
+      "account": "user-02",
+      "sourceIp": "192.0.2.108",
+      "asset": "DEMO-WS-08",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0309",
+      "timestamp": "2026-01-15T12:52:36Z",
+      "type": "email_flagged",
+      "account": "user-03",
+      "sourceIp": "192.0.2.109",
+      "asset": "DEMO-WS-09",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0310",
+      "timestamp": "2026-01-15T12:53:33Z",
+      "type": "login_failed",
+      "account": "user-04",
+      "sourceIp": "192.0.2.110",
+      "asset": "DEMO-WS-10",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0311",
+      "timestamp": "2026-01-15T12:54:30Z",
+      "type": "file_change",
+      "account": "user-05",
+      "sourceIp": "192.0.2.111",
+      "asset": "DEMO-WS-11",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0312",
+      "timestamp": "2026-01-15T12:55:27Z",
+      "type": "remote_session",
+      "account": "user-06",
+      "sourceIp": "192.0.2.112",
+      "asset": "DEMO-WS-12",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0313",
+      "timestamp": "2026-01-15T12:56:24Z",
+      "type": "email_flagged",
+      "account": "user-07",
+      "sourceIp": "192.0.2.113",
+      "asset": "DEMO-WS-13",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0314",
+      "timestamp": "2026-01-15T12:57:21Z",
+      "type": "login_failed",
+      "account": "user-08",
+      "sourceIp": "192.0.2.114",
+      "asset": "DEMO-WS-14",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0315",
+      "timestamp": "2026-01-15T12:58:18Z",
+      "type": "file_change",
+      "account": "user-09",
+      "sourceIp": "192.0.2.115",
+      "asset": "DEMO-WS-15",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0316",
+      "timestamp": "2026-01-15T12:59:15Z",
+      "type": "remote_session",
+      "account": "user-10",
+      "sourceIp": "192.0.2.116",
+      "asset": "DEMO-WS-16",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0317",
+      "timestamp": "2026-01-15T13:00:12Z",
+      "type": "email_flagged",
+      "account": "user-11",
+      "sourceIp": "192.0.2.117",
+      "asset": "DEMO-WS-17",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0318",
+      "timestamp": "2026-01-15T13:01:09Z",
+      "type": "login_failed",
+      "account": "user-12",
+      "sourceIp": "192.0.2.118",
+      "asset": "DEMO-WS-18",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0319",
+      "timestamp": "2026-01-15T13:02:06Z",
+      "type": "file_change",
+      "account": "user-13",
+      "sourceIp": "192.0.2.119",
+      "asset": "DEMO-WS-19",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0320",
+      "timestamp": "2026-01-15T13:03:03Z",
+      "type": "remote_session",
+      "account": "user-14",
+      "sourceIp": "192.0.2.120",
+      "asset": "DEMO-WS-20",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0321",
+      "timestamp": "2026-01-15T13:04:00Z",
+      "type": "email_flagged",
+      "account": "user-15",
+      "sourceIp": "192.0.2.121",
+      "asset": "DEMO-WS-21",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0322",
+      "timestamp": "2026-01-15T13:04:57Z",
+      "type": "login_failed",
+      "account": "user-16",
+      "sourceIp": "192.0.2.122",
+      "asset": "DEMO-WS-22",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0323",
+      "timestamp": "2026-01-15T13:05:54Z",
+      "type": "file_change",
+      "account": "user-17",
+      "sourceIp": "192.0.2.123",
+      "asset": "DEMO-WS-23",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0324",
+      "timestamp": "2026-01-15T13:06:51Z",
+      "type": "remote_session",
+      "account": "user-01",
+      "sourceIp": "192.0.2.124",
+      "asset": "DEMO-WS-24",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0325",
+      "timestamp": "2026-01-15T13:07:48Z",
+      "type": "email_flagged",
+      "account": "user-02",
+      "sourceIp": "192.0.2.125",
+      "asset": "DEMO-WS-25",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0326",
+      "timestamp": "2026-01-15T13:08:45Z",
+      "type": "login_failed",
+      "account": "user-03",
+      "sourceIp": "192.0.2.126",
+      "asset": "DEMO-WS-01",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0327",
+      "timestamp": "2026-01-15T13:09:42Z",
+      "type": "file_change",
+      "account": "user-04",
+      "sourceIp": "192.0.2.127",
+      "asset": "DEMO-WS-02",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0328",
+      "timestamp": "2026-01-15T13:10:39Z",
+      "type": "remote_session",
+      "account": "user-05",
+      "sourceIp": "192.0.2.128",
+      "asset": "DEMO-WS-03",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0329",
+      "timestamp": "2026-01-15T13:11:36Z",
+      "type": "email_flagged",
+      "account": "user-06",
+      "sourceIp": "192.0.2.129",
+      "asset": "DEMO-WS-04",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0330",
+      "timestamp": "2026-01-15T13:12:33Z",
+      "type": "login_failed",
+      "account": "user-07",
+      "sourceIp": "192.0.2.130",
+      "asset": "DEMO-WS-05",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0331",
+      "timestamp": "2026-01-15T13:13:30Z",
+      "type": "file_change",
+      "account": "user-08",
+      "sourceIp": "192.0.2.131",
+      "asset": "DEMO-WS-06",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0332",
+      "timestamp": "2026-01-15T13:14:27Z",
+      "type": "remote_session",
+      "account": "user-09",
+      "sourceIp": "192.0.2.132",
+      "asset": "DEMO-WS-07",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0333",
+      "timestamp": "2026-01-15T13:15:24Z",
+      "type": "email_flagged",
+      "account": "user-10",
+      "sourceIp": "192.0.2.133",
+      "asset": "DEMO-WS-08",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0334",
+      "timestamp": "2026-01-15T13:16:21Z",
+      "type": "login_failed",
+      "account": "user-11",
+      "sourceIp": "192.0.2.134",
+      "asset": "DEMO-WS-09",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0335",
+      "timestamp": "2026-01-15T13:17:18Z",
+      "type": "file_change",
+      "account": "user-12",
+      "sourceIp": "192.0.2.135",
+      "asset": "DEMO-WS-10",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0336",
+      "timestamp": "2026-01-15T13:18:15Z",
+      "type": "remote_session",
+      "account": "user-13",
+      "sourceIp": "192.0.2.136",
+      "asset": "DEMO-WS-11",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0337",
+      "timestamp": "2026-01-15T13:19:12Z",
+      "type": "email_flagged",
+      "account": "user-14",
+      "sourceIp": "192.0.2.137",
+      "asset": "DEMO-WS-12",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0338",
+      "timestamp": "2026-01-15T13:20:09Z",
+      "type": "login_failed",
+      "account": "user-15",
+      "sourceIp": "192.0.2.138",
+      "asset": "DEMO-WS-13",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0339",
+      "timestamp": "2026-01-15T13:21:06Z",
+      "type": "file_change",
+      "account": "user-16",
+      "sourceIp": "192.0.2.139",
+      "asset": "DEMO-WS-14",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0340",
+      "timestamp": "2026-01-15T13:22:03Z",
+      "type": "remote_session",
+      "account": "user-17",
+      "sourceIp": "192.0.2.140",
+      "asset": "DEMO-WS-15",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0341",
+      "timestamp": "2026-01-15T13:23:00Z",
+      "type": "email_flagged",
+      "account": "user-01",
+      "sourceIp": "192.0.2.141",
+      "asset": "DEMO-WS-16",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0342",
+      "timestamp": "2026-01-15T13:23:57Z",
+      "type": "login_failed",
+      "account": "user-02",
+      "sourceIp": "192.0.2.142",
+      "asset": "DEMO-WS-17",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0343",
+      "timestamp": "2026-01-15T13:24:54Z",
+      "type": "file_change",
+      "account": "user-03",
+      "sourceIp": "192.0.2.143",
+      "asset": "DEMO-WS-18",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0344",
+      "timestamp": "2026-01-15T13:25:51Z",
+      "type": "remote_session",
+      "account": "user-04",
+      "sourceIp": "192.0.2.144",
+      "asset": "DEMO-WS-19",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0345",
+      "timestamp": "2026-01-15T13:26:48Z",
+      "type": "email_flagged",
+      "account": "user-05",
+      "sourceIp": "192.0.2.145",
+      "asset": "DEMO-WS-20",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0346",
+      "timestamp": "2026-01-15T13:27:45Z",
+      "type": "login_failed",
+      "account": "user-06",
+      "sourceIp": "192.0.2.146",
+      "asset": "DEMO-WS-21",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0347",
+      "timestamp": "2026-01-15T13:28:42Z",
+      "type": "file_change",
+      "account": "user-07",
+      "sourceIp": "192.0.2.147",
+      "asset": "DEMO-WS-22",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0348",
+      "timestamp": "2026-01-15T13:29:39Z",
+      "type": "remote_session",
+      "account": "user-08",
+      "sourceIp": "192.0.2.148",
+      "asset": "DEMO-WS-23",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0349",
+      "timestamp": "2026-01-15T13:30:36Z",
+      "type": "email_flagged",
+      "account": "user-09",
+      "sourceIp": "192.0.2.149",
+      "asset": "DEMO-WS-24",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0350",
+      "timestamp": "2026-01-15T13:31:33Z",
+      "type": "login_failed",
+      "account": "user-10",
+      "sourceIp": "192.0.2.150",
+      "asset": "DEMO-WS-25",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0351",
+      "timestamp": "2026-01-15T13:32:30Z",
+      "type": "file_change",
+      "account": "user-11",
+      "sourceIp": "192.0.2.151",
+      "asset": "DEMO-WS-01",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0352",
+      "timestamp": "2026-01-15T13:33:27Z",
+      "type": "remote_session",
+      "account": "user-12",
+      "sourceIp": "192.0.2.152",
+      "asset": "DEMO-WS-02",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0353",
+      "timestamp": "2026-01-15T13:34:24Z",
+      "type": "email_flagged",
+      "account": "user-13",
+      "sourceIp": "192.0.2.153",
+      "asset": "DEMO-WS-03",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0354",
+      "timestamp": "2026-01-15T13:35:21Z",
+      "type": "login_failed",
+      "account": "user-14",
+      "sourceIp": "192.0.2.154",
+      "asset": "DEMO-WS-04",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0355",
+      "timestamp": "2026-01-15T13:36:18Z",
+      "type": "file_change",
+      "account": "user-15",
+      "sourceIp": "192.0.2.155",
+      "asset": "DEMO-WS-05",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0356",
+      "timestamp": "2026-01-15T13:37:15Z",
+      "type": "remote_session",
+      "account": "user-16",
+      "sourceIp": "192.0.2.156",
+      "asset": "DEMO-WS-06",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0357",
+      "timestamp": "2026-01-15T13:38:12Z",
+      "type": "email_flagged",
+      "account": "user-17",
+      "sourceIp": "192.0.2.157",
+      "asset": "DEMO-WS-07",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0358",
+      "timestamp": "2026-01-15T13:39:09Z",
+      "type": "login_failed",
+      "account": "user-01",
+      "sourceIp": "192.0.2.158",
+      "asset": "DEMO-WS-08",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0359",
+      "timestamp": "2026-01-15T13:40:06Z",
+      "type": "file_change",
+      "account": "user-02",
+      "sourceIp": "192.0.2.159",
+      "asset": "DEMO-WS-09",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0360",
+      "timestamp": "2026-01-15T13:41:03Z",
+      "type": "remote_session",
+      "account": "user-03",
+      "sourceIp": "192.0.2.160",
+      "asset": "DEMO-WS-10",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0361",
+      "timestamp": "2026-01-15T13:42:00Z",
+      "type": "email_flagged",
+      "account": "user-04",
+      "sourceIp": "192.0.2.161",
+      "asset": "DEMO-WS-11",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0362",
+      "timestamp": "2026-01-15T13:42:57Z",
+      "type": "login_failed",
+      "account": "user-05",
+      "sourceIp": "192.0.2.162",
+      "asset": "DEMO-WS-12",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0363",
+      "timestamp": "2026-01-15T13:43:54Z",
+      "type": "file_change",
+      "account": "user-06",
+      "sourceIp": "192.0.2.163",
+      "asset": "DEMO-WS-13",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0364",
+      "timestamp": "2026-01-15T13:44:51Z",
+      "type": "remote_session",
+      "account": "user-07",
+      "sourceIp": "192.0.2.164",
+      "asset": "DEMO-WS-14",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0365",
+      "timestamp": "2026-01-15T13:45:48Z",
+      "type": "email_flagged",
+      "account": "user-08",
+      "sourceIp": "192.0.2.165",
+      "asset": "DEMO-WS-15",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0366",
+      "timestamp": "2026-01-15T13:46:45Z",
+      "type": "login_failed",
+      "account": "user-09",
+      "sourceIp": "192.0.2.166",
+      "asset": "DEMO-WS-16",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0367",
+      "timestamp": "2026-01-15T13:47:42Z",
+      "type": "file_change",
+      "account": "user-10",
+      "sourceIp": "192.0.2.167",
+      "asset": "DEMO-WS-17",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0368",
+      "timestamp": "2026-01-15T13:48:39Z",
+      "type": "remote_session",
+      "account": "user-11",
+      "sourceIp": "192.0.2.168",
+      "asset": "DEMO-WS-18",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0369",
+      "timestamp": "2026-01-15T13:49:36Z",
+      "type": "email_flagged",
+      "account": "user-12",
+      "sourceIp": "192.0.2.169",
+      "asset": "DEMO-WS-19",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0370",
+      "timestamp": "2026-01-15T13:50:33Z",
+      "type": "login_failed",
+      "account": "user-13",
+      "sourceIp": "192.0.2.170",
+      "asset": "DEMO-WS-20",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0371",
+      "timestamp": "2026-01-15T13:51:30Z",
+      "type": "file_change",
+      "account": "user-14",
+      "sourceIp": "192.0.2.171",
+      "asset": "DEMO-WS-21",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0372",
+      "timestamp": "2026-01-15T13:52:27Z",
+      "type": "remote_session",
+      "account": "user-15",
+      "sourceIp": "192.0.2.172",
+      "asset": "DEMO-WS-22",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0373",
+      "timestamp": "2026-01-15T13:53:24Z",
+      "type": "email_flagged",
+      "account": "user-16",
+      "sourceIp": "192.0.2.173",
+      "asset": "DEMO-WS-23",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0374",
+      "timestamp": "2026-01-15T13:54:21Z",
+      "type": "login_failed",
+      "account": "user-17",
+      "sourceIp": "192.0.2.174",
+      "asset": "DEMO-WS-24",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0375",
+      "timestamp": "2026-01-15T13:55:18Z",
+      "type": "file_change",
+      "account": "user-01",
+      "sourceIp": "192.0.2.175",
+      "asset": "DEMO-WS-25",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0376",
+      "timestamp": "2026-01-15T13:56:15Z",
+      "type": "remote_session",
+      "account": "user-02",
+      "sourceIp": "192.0.2.176",
+      "asset": "DEMO-WS-01",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0377",
+      "timestamp": "2026-01-15T13:57:12Z",
+      "type": "email_flagged",
+      "account": "user-03",
+      "sourceIp": "192.0.2.177",
+      "asset": "DEMO-WS-02",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0378",
+      "timestamp": "2026-01-15T13:58:09Z",
+      "type": "login_failed",
+      "account": "user-04",
+      "sourceIp": "192.0.2.178",
+      "asset": "DEMO-WS-03",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0379",
+      "timestamp": "2026-01-15T13:59:06Z",
+      "type": "file_change",
+      "account": "user-05",
+      "sourceIp": "192.0.2.179",
+      "asset": "DEMO-WS-04",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0380",
+      "timestamp": "2026-01-15T14:00:03Z",
+      "type": "remote_session",
+      "account": "user-06",
+      "sourceIp": "192.0.2.180",
+      "asset": "DEMO-WS-05",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0381",
+      "timestamp": "2026-01-15T14:01:00Z",
+      "type": "email_flagged",
+      "account": "user-07",
+      "sourceIp": "192.0.2.181",
+      "asset": "DEMO-WS-06",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0382",
+      "timestamp": "2026-01-15T14:01:57Z",
+      "type": "login_failed",
+      "account": "user-08",
+      "sourceIp": "192.0.2.182",
+      "asset": "DEMO-WS-07",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0383",
+      "timestamp": "2026-01-15T14:02:54Z",
+      "type": "file_change",
+      "account": "user-09",
+      "sourceIp": "192.0.2.183",
+      "asset": "DEMO-WS-08",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0384",
+      "timestamp": "2026-01-15T14:03:51Z",
+      "type": "remote_session",
+      "account": "user-10",
+      "sourceIp": "192.0.2.184",
+      "asset": "DEMO-WS-09",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0385",
+      "timestamp": "2026-01-15T14:04:48Z",
+      "type": "email_flagged",
+      "account": "user-11",
+      "sourceIp": "192.0.2.185",
+      "asset": "DEMO-WS-10",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0386",
+      "timestamp": "2026-01-15T14:05:45Z",
+      "type": "login_failed",
+      "account": "user-12",
+      "sourceIp": "192.0.2.186",
+      "asset": "DEMO-WS-11",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0387",
+      "timestamp": "2026-01-15T14:06:42Z",
+      "type": "file_change",
+      "account": "user-13",
+      "sourceIp": "192.0.2.187",
+      "asset": "DEMO-WS-12",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0388",
+      "timestamp": "2026-01-15T14:07:39Z",
+      "type": "remote_session",
+      "account": "user-14",
+      "sourceIp": "192.0.2.188",
+      "asset": "DEMO-WS-13",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0389",
+      "timestamp": "2026-01-15T14:08:36Z",
+      "type": "email_flagged",
+      "account": "user-15",
+      "sourceIp": "192.0.2.189",
+      "asset": "DEMO-WS-14",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0390",
+      "timestamp": "2026-01-15T14:09:33Z",
+      "type": "login_failed",
+      "account": "user-16",
+      "sourceIp": "192.0.2.190",
+      "asset": "DEMO-WS-15",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0391",
+      "timestamp": "2026-01-15T14:10:30Z",
+      "type": "file_change",
+      "account": "user-17",
+      "sourceIp": "192.0.2.191",
+      "asset": "DEMO-WS-16",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0392",
+      "timestamp": "2026-01-15T14:11:27Z",
+      "type": "remote_session",
+      "account": "user-01",
+      "sourceIp": "192.0.2.192",
+      "asset": "DEMO-WS-17",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0393",
+      "timestamp": "2026-01-15T14:12:24Z",
+      "type": "email_flagged",
+      "account": "user-02",
+      "sourceIp": "192.0.2.193",
+      "asset": "DEMO-WS-18",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0394",
+      "timestamp": "2026-01-15T14:13:21Z",
+      "type": "login_failed",
+      "account": "user-03",
+      "sourceIp": "192.0.2.194",
+      "asset": "DEMO-WS-19",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0395",
+      "timestamp": "2026-01-15T14:14:18Z",
+      "type": "file_change",
+      "account": "user-04",
+      "sourceIp": "192.0.2.195",
+      "asset": "DEMO-WS-20",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0396",
+      "timestamp": "2026-01-15T14:15:15Z",
+      "type": "remote_session",
+      "account": "user-05",
+      "sourceIp": "192.0.2.196",
+      "asset": "DEMO-WS-21",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0397",
+      "timestamp": "2026-01-15T14:16:12Z",
+      "type": "email_flagged",
+      "account": "user-06",
+      "sourceIp": "192.0.2.197",
+      "asset": "DEMO-WS-22",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0398",
+      "timestamp": "2026-01-15T14:17:09Z",
+      "type": "login_failed",
+      "account": "user-07",
+      "sourceIp": "192.0.2.198",
+      "asset": "DEMO-WS-23",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0399",
+      "timestamp": "2026-01-15T14:18:06Z",
+      "type": "file_change",
+      "account": "user-08",
+      "sourceIp": "192.0.2.199",
+      "asset": "DEMO-WS-24",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0400",
+      "timestamp": "2026-01-15T14:19:03Z",
+      "type": "remote_session",
+      "account": "user-09",
+      "sourceIp": "192.0.2.200",
+      "asset": "DEMO-WS-25",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0401",
+      "timestamp": "2026-01-15T14:20:00Z",
+      "type": "email_flagged",
+      "account": "user-10",
+      "sourceIp": "192.0.2.1",
+      "asset": "DEMO-WS-01",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0402",
+      "timestamp": "2026-01-15T14:20:57Z",
+      "type": "login_failed",
+      "account": "user-11",
+      "sourceIp": "192.0.2.2",
+      "asset": "DEMO-WS-02",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0403",
+      "timestamp": "2026-01-15T14:21:54Z",
+      "type": "file_change",
+      "account": "user-12",
+      "sourceIp": "192.0.2.3",
+      "asset": "DEMO-WS-03",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0404",
+      "timestamp": "2026-01-15T14:22:51Z",
+      "type": "remote_session",
+      "account": "user-13",
+      "sourceIp": "192.0.2.4",
+      "asset": "DEMO-WS-04",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0405",
+      "timestamp": "2026-01-15T14:23:48Z",
+      "type": "email_flagged",
+      "account": "user-14",
+      "sourceIp": "192.0.2.5",
+      "asset": "DEMO-WS-05",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0406",
+      "timestamp": "2026-01-15T14:24:45Z",
+      "type": "login_failed",
+      "account": "user-15",
+      "sourceIp": "192.0.2.6",
+      "asset": "DEMO-WS-06",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0407",
+      "timestamp": "2026-01-15T14:25:42Z",
+      "type": "file_change",
+      "account": "user-16",
+      "sourceIp": "192.0.2.7",
+      "asset": "DEMO-WS-07",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0408",
+      "timestamp": "2026-01-15T14:26:39Z",
+      "type": "remote_session",
+      "account": "user-17",
+      "sourceIp": "192.0.2.8",
+      "asset": "DEMO-WS-08",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0409",
+      "timestamp": "2026-01-15T14:27:36Z",
+      "type": "email_flagged",
+      "account": "user-01",
+      "sourceIp": "192.0.2.9",
+      "asset": "DEMO-WS-09",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0410",
+      "timestamp": "2026-01-15T14:28:33Z",
+      "type": "login_failed",
+      "account": "user-02",
+      "sourceIp": "192.0.2.10",
+      "asset": "DEMO-WS-10",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0411",
+      "timestamp": "2026-01-15T14:29:30Z",
+      "type": "file_change",
+      "account": "user-03",
+      "sourceIp": "192.0.2.11",
+      "asset": "DEMO-WS-11",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0412",
+      "timestamp": "2026-01-15T14:30:27Z",
+      "type": "remote_session",
+      "account": "user-04",
+      "sourceIp": "192.0.2.12",
+      "asset": "DEMO-WS-12",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0413",
+      "timestamp": "2026-01-15T14:31:24Z",
+      "type": "email_flagged",
+      "account": "user-05",
+      "sourceIp": "192.0.2.13",
+      "asset": "DEMO-WS-13",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0414",
+      "timestamp": "2026-01-15T14:32:21Z",
+      "type": "login_failed",
+      "account": "user-06",
+      "sourceIp": "192.0.2.14",
+      "asset": "DEMO-WS-14",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0415",
+      "timestamp": "2026-01-15T14:33:18Z",
+      "type": "file_change",
+      "account": "user-07",
+      "sourceIp": "192.0.2.15",
+      "asset": "DEMO-WS-15",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0416",
+      "timestamp": "2026-01-15T14:34:15Z",
+      "type": "remote_session",
+      "account": "user-08",
+      "sourceIp": "192.0.2.16",
+      "asset": "DEMO-WS-16",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0417",
+      "timestamp": "2026-01-15T14:35:12Z",
+      "type": "email_flagged",
+      "account": "user-09",
+      "sourceIp": "192.0.2.17",
+      "asset": "DEMO-WS-17",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0418",
+      "timestamp": "2026-01-15T14:36:09Z",
+      "type": "login_failed",
+      "account": "user-10",
+      "sourceIp": "192.0.2.18",
+      "asset": "DEMO-WS-18",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0419",
+      "timestamp": "2026-01-15T14:37:06Z",
+      "type": "file_change",
+      "account": "user-11",
+      "sourceIp": "192.0.2.19",
+      "asset": "DEMO-WS-19",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0420",
+      "timestamp": "2026-01-15T14:38:03Z",
+      "type": "remote_session",
+      "account": "user-12",
+      "sourceIp": "192.0.2.20",
+      "asset": "DEMO-WS-20",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0421",
+      "timestamp": "2026-01-15T14:39:00Z",
+      "type": "email_flagged",
+      "account": "user-13",
+      "sourceIp": "192.0.2.21",
+      "asset": "DEMO-WS-21",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0422",
+      "timestamp": "2026-01-15T14:39:57Z",
+      "type": "login_failed",
+      "account": "user-14",
+      "sourceIp": "192.0.2.22",
+      "asset": "DEMO-WS-22",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0423",
+      "timestamp": "2026-01-15T14:40:54Z",
+      "type": "file_change",
+      "account": "user-15",
+      "sourceIp": "192.0.2.23",
+      "asset": "DEMO-WS-23",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0424",
+      "timestamp": "2026-01-15T14:41:51Z",
+      "type": "remote_session",
+      "account": "user-16",
+      "sourceIp": "192.0.2.24",
+      "asset": "DEMO-WS-24",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0425",
+      "timestamp": "2026-01-15T14:42:48Z",
+      "type": "email_flagged",
+      "account": "user-17",
+      "sourceIp": "192.0.2.25",
+      "asset": "DEMO-WS-25",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0426",
+      "timestamp": "2026-01-15T14:43:45Z",
+      "type": "login_failed",
+      "account": "user-01",
+      "sourceIp": "192.0.2.26",
+      "asset": "DEMO-WS-01",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0427",
+      "timestamp": "2026-01-15T14:44:42Z",
+      "type": "file_change",
+      "account": "user-02",
+      "sourceIp": "192.0.2.27",
+      "asset": "DEMO-WS-02",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0428",
+      "timestamp": "2026-01-15T14:45:39Z",
+      "type": "remote_session",
+      "account": "user-03",
+      "sourceIp": "192.0.2.28",
+      "asset": "DEMO-WS-03",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0429",
+      "timestamp": "2026-01-15T14:46:36Z",
+      "type": "email_flagged",
+      "account": "user-04",
+      "sourceIp": "192.0.2.29",
+      "asset": "DEMO-WS-04",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0430",
+      "timestamp": "2026-01-15T14:47:33Z",
+      "type": "login_failed",
+      "account": "user-05",
+      "sourceIp": "192.0.2.30",
+      "asset": "DEMO-WS-05",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0431",
+      "timestamp": "2026-01-15T14:48:30Z",
+      "type": "file_change",
+      "account": "user-06",
+      "sourceIp": "192.0.2.31",
+      "asset": "DEMO-WS-06",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0432",
+      "timestamp": "2026-01-15T14:49:27Z",
+      "type": "remote_session",
+      "account": "user-07",
+      "sourceIp": "192.0.2.32",
+      "asset": "DEMO-WS-07",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0433",
+      "timestamp": "2026-01-15T14:50:24Z",
+      "type": "email_flagged",
+      "account": "user-08",
+      "sourceIp": "192.0.2.33",
+      "asset": "DEMO-WS-08",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0434",
+      "timestamp": "2026-01-15T14:51:21Z",
+      "type": "login_failed",
+      "account": "user-09",
+      "sourceIp": "192.0.2.34",
+      "asset": "DEMO-WS-09",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0435",
+      "timestamp": "2026-01-15T14:52:18Z",
+      "type": "file_change",
+      "account": "user-10",
+      "sourceIp": "192.0.2.35",
+      "asset": "DEMO-WS-10",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0436",
+      "timestamp": "2026-01-15T14:53:15Z",
+      "type": "remote_session",
+      "account": "user-11",
+      "sourceIp": "192.0.2.36",
+      "asset": "DEMO-WS-11",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0437",
+      "timestamp": "2026-01-15T14:54:12Z",
+      "type": "email_flagged",
+      "account": "user-12",
+      "sourceIp": "192.0.2.37",
+      "asset": "DEMO-WS-12",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0438",
+      "timestamp": "2026-01-15T14:55:09Z",
+      "type": "login_failed",
+      "account": "user-13",
+      "sourceIp": "192.0.2.38",
+      "asset": "DEMO-WS-13",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0439",
+      "timestamp": "2026-01-15T14:56:06Z",
+      "type": "file_change",
+      "account": "user-14",
+      "sourceIp": "192.0.2.39",
+      "asset": "DEMO-WS-14",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0440",
+      "timestamp": "2026-01-15T14:57:03Z",
+      "type": "remote_session",
+      "account": "user-15",
+      "sourceIp": "192.0.2.40",
+      "asset": "DEMO-WS-15",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0441",
+      "timestamp": "2026-01-15T14:58:00Z",
+      "type": "email_flagged",
+      "account": "user-16",
+      "sourceIp": "192.0.2.41",
+      "asset": "DEMO-WS-16",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0442",
+      "timestamp": "2026-01-15T14:58:57Z",
+      "type": "login_failed",
+      "account": "user-17",
+      "sourceIp": "192.0.2.42",
+      "asset": "DEMO-WS-17",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0443",
+      "timestamp": "2026-01-15T14:59:54Z",
+      "type": "file_change",
+      "account": "user-01",
+      "sourceIp": "192.0.2.43",
+      "asset": "DEMO-WS-18",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0444",
+      "timestamp": "2026-01-15T15:00:51Z",
+      "type": "remote_session",
+      "account": "user-02",
+      "sourceIp": "192.0.2.44",
+      "asset": "DEMO-WS-19",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0445",
+      "timestamp": "2026-01-15T15:01:48Z",
+      "type": "email_flagged",
+      "account": "user-03",
+      "sourceIp": "192.0.2.45",
+      "asset": "DEMO-WS-20",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0446",
+      "timestamp": "2026-01-15T15:02:45Z",
+      "type": "login_failed",
+      "account": "user-04",
+      "sourceIp": "192.0.2.46",
+      "asset": "DEMO-WS-21",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0447",
+      "timestamp": "2026-01-15T15:03:42Z",
+      "type": "file_change",
+      "account": "user-05",
+      "sourceIp": "192.0.2.47",
+      "asset": "DEMO-WS-22",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0448",
+      "timestamp": "2026-01-15T15:04:39Z",
+      "type": "remote_session",
+      "account": "user-06",
+      "sourceIp": "192.0.2.48",
+      "asset": "DEMO-WS-23",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0449",
+      "timestamp": "2026-01-15T15:05:36Z",
+      "type": "email_flagged",
+      "account": "user-07",
+      "sourceIp": "192.0.2.49",
+      "asset": "DEMO-WS-24",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0450",
+      "timestamp": "2026-01-15T15:06:33Z",
+      "type": "login_failed",
+      "account": "user-08",
+      "sourceIp": "192.0.2.50",
+      "asset": "DEMO-WS-25",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0451",
+      "timestamp": "2026-01-15T15:07:30Z",
+      "type": "file_change",
+      "account": "user-09",
+      "sourceIp": "192.0.2.51",
+      "asset": "DEMO-WS-01",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0452",
+      "timestamp": "2026-01-15T15:08:27Z",
+      "type": "remote_session",
+      "account": "user-10",
+      "sourceIp": "192.0.2.52",
+      "asset": "DEMO-WS-02",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0453",
+      "timestamp": "2026-01-15T15:09:24Z",
+      "type": "email_flagged",
+      "account": "user-11",
+      "sourceIp": "192.0.2.53",
+      "asset": "DEMO-WS-03",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0454",
+      "timestamp": "2026-01-15T15:10:21Z",
+      "type": "login_failed",
+      "account": "user-12",
+      "sourceIp": "192.0.2.54",
+      "asset": "DEMO-WS-04",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0455",
+      "timestamp": "2026-01-15T15:11:18Z",
+      "type": "file_change",
+      "account": "user-13",
+      "sourceIp": "192.0.2.55",
+      "asset": "DEMO-WS-05",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0456",
+      "timestamp": "2026-01-15T15:12:15Z",
+      "type": "remote_session",
+      "account": "user-14",
+      "sourceIp": "192.0.2.56",
+      "asset": "DEMO-WS-06",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0457",
+      "timestamp": "2026-01-15T15:13:12Z",
+      "type": "email_flagged",
+      "account": "user-15",
+      "sourceIp": "192.0.2.57",
+      "asset": "DEMO-WS-07",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0458",
+      "timestamp": "2026-01-15T15:14:09Z",
+      "type": "login_failed",
+      "account": "user-16",
+      "sourceIp": "192.0.2.58",
+      "asset": "DEMO-WS-08",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0459",
+      "timestamp": "2026-01-15T15:15:06Z",
+      "type": "file_change",
+      "account": "user-17",
+      "sourceIp": "192.0.2.59",
+      "asset": "DEMO-WS-09",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0460",
+      "timestamp": "2026-01-15T15:16:03Z",
+      "type": "remote_session",
+      "account": "user-01",
+      "sourceIp": "192.0.2.60",
+      "asset": "DEMO-WS-10",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0461",
+      "timestamp": "2026-01-15T15:17:00Z",
+      "type": "email_flagged",
+      "account": "user-02",
+      "sourceIp": "192.0.2.61",
+      "asset": "DEMO-WS-11",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0462",
+      "timestamp": "2026-01-15T15:17:57Z",
+      "type": "login_failed",
+      "account": "user-03",
+      "sourceIp": "192.0.2.62",
+      "asset": "DEMO-WS-12",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0463",
+      "timestamp": "2026-01-15T15:18:54Z",
+      "type": "file_change",
+      "account": "user-04",
+      "sourceIp": "192.0.2.63",
+      "asset": "DEMO-WS-13",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0464",
+      "timestamp": "2026-01-15T15:19:51Z",
+      "type": "remote_session",
+      "account": "user-05",
+      "sourceIp": "192.0.2.64",
+      "asset": "DEMO-WS-14",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0465",
+      "timestamp": "2026-01-15T15:20:48Z",
+      "type": "email_flagged",
+      "account": "user-06",
+      "sourceIp": "192.0.2.65",
+      "asset": "DEMO-WS-15",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0466",
+      "timestamp": "2026-01-15T15:21:45Z",
+      "type": "login_failed",
+      "account": "user-07",
+      "sourceIp": "192.0.2.66",
+      "asset": "DEMO-WS-16",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0467",
+      "timestamp": "2026-01-15T15:22:42Z",
+      "type": "file_change",
+      "account": "user-08",
+      "sourceIp": "192.0.2.67",
+      "asset": "DEMO-WS-17",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0468",
+      "timestamp": "2026-01-15T15:23:39Z",
+      "type": "remote_session",
+      "account": "user-09",
+      "sourceIp": "192.0.2.68",
+      "asset": "DEMO-WS-18",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0469",
+      "timestamp": "2026-01-15T15:24:36Z",
+      "type": "email_flagged",
+      "account": "user-10",
+      "sourceIp": "192.0.2.69",
+      "asset": "DEMO-WS-19",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0470",
+      "timestamp": "2026-01-15T15:25:33Z",
+      "type": "login_failed",
+      "account": "user-11",
+      "sourceIp": "192.0.2.70",
+      "asset": "DEMO-WS-20",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0471",
+      "timestamp": "2026-01-15T15:26:30Z",
+      "type": "file_change",
+      "account": "user-12",
+      "sourceIp": "192.0.2.71",
+      "asset": "DEMO-WS-21",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0472",
+      "timestamp": "2026-01-15T15:27:27Z",
+      "type": "remote_session",
+      "account": "user-13",
+      "sourceIp": "192.0.2.72",
+      "asset": "DEMO-WS-22",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0473",
+      "timestamp": "2026-01-15T15:28:24Z",
+      "type": "email_flagged",
+      "account": "user-14",
+      "sourceIp": "192.0.2.73",
+      "asset": "DEMO-WS-23",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0474",
+      "timestamp": "2026-01-15T15:29:21Z",
+      "type": "login_failed",
+      "account": "user-15",
+      "sourceIp": "192.0.2.74",
+      "asset": "DEMO-WS-24",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0475",
+      "timestamp": "2026-01-15T15:30:18Z",
+      "type": "file_change",
+      "account": "user-16",
+      "sourceIp": "192.0.2.75",
+      "asset": "DEMO-WS-25",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0476",
+      "timestamp": "2026-01-15T15:31:15Z",
+      "type": "remote_session",
+      "account": "user-17",
+      "sourceIp": "192.0.2.76",
+      "asset": "DEMO-WS-01",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0477",
+      "timestamp": "2026-01-15T15:32:12Z",
+      "type": "email_flagged",
+      "account": "user-01",
+      "sourceIp": "192.0.2.77",
+      "asset": "DEMO-WS-02",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0478",
+      "timestamp": "2026-01-15T15:33:09Z",
+      "type": "login_failed",
+      "account": "user-02",
+      "sourceIp": "192.0.2.78",
+      "asset": "DEMO-WS-03",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0479",
+      "timestamp": "2026-01-15T15:34:06Z",
+      "type": "file_change",
+      "account": "user-03",
+      "sourceIp": "192.0.2.79",
+      "asset": "DEMO-WS-04",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0480",
+      "timestamp": "2026-01-15T15:35:03Z",
+      "type": "remote_session",
+      "account": "user-04",
+      "sourceIp": "192.0.2.80",
+      "asset": "DEMO-WS-05",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0481",
+      "timestamp": "2026-01-15T15:36:00Z",
+      "type": "email_flagged",
+      "account": "user-05",
+      "sourceIp": "192.0.2.81",
+      "asset": "DEMO-WS-06",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0482",
+      "timestamp": "2026-01-15T15:36:57Z",
+      "type": "login_failed",
+      "account": "user-06",
+      "sourceIp": "192.0.2.82",
+      "asset": "DEMO-WS-07",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0483",
+      "timestamp": "2026-01-15T15:37:54Z",
+      "type": "file_change",
+      "account": "user-07",
+      "sourceIp": "192.0.2.83",
+      "asset": "DEMO-WS-08",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0484",
+      "timestamp": "2026-01-15T15:38:51Z",
+      "type": "remote_session",
+      "account": "user-08",
+      "sourceIp": "192.0.2.84",
+      "asset": "DEMO-WS-09",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0485",
+      "timestamp": "2026-01-15T15:39:48Z",
+      "type": "email_flagged",
+      "account": "user-09",
+      "sourceIp": "192.0.2.85",
+      "asset": "DEMO-WS-10",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0486",
+      "timestamp": "2026-01-15T15:40:45Z",
+      "type": "login_failed",
+      "account": "user-10",
+      "sourceIp": "192.0.2.86",
+      "asset": "DEMO-WS-11",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0487",
+      "timestamp": "2026-01-15T15:41:42Z",
+      "type": "file_change",
+      "account": "user-11",
+      "sourceIp": "192.0.2.87",
+      "asset": "DEMO-WS-12",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0488",
+      "timestamp": "2026-01-15T15:42:39Z",
+      "type": "remote_session",
+      "account": "user-12",
+      "sourceIp": "192.0.2.88",
+      "asset": "DEMO-WS-13",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0489",
+      "timestamp": "2026-01-15T15:43:36Z",
+      "type": "email_flagged",
+      "account": "user-13",
+      "sourceIp": "192.0.2.89",
+      "asset": "DEMO-WS-14",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0490",
+      "timestamp": "2026-01-15T15:44:33Z",
+      "type": "login_failed",
+      "account": "user-14",
+      "sourceIp": "192.0.2.90",
+      "asset": "DEMO-WS-15",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0491",
+      "timestamp": "2026-01-15T15:45:30Z",
+      "type": "file_change",
+      "account": "user-15",
+      "sourceIp": "192.0.2.91",
+      "asset": "DEMO-WS-16",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0492",
+      "timestamp": "2026-01-15T15:46:27Z",
+      "type": "remote_session",
+      "account": "user-16",
+      "sourceIp": "192.0.2.92",
+      "asset": "DEMO-WS-17",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0493",
+      "timestamp": "2026-01-15T15:47:24Z",
+      "type": "email_flagged",
+      "account": "user-17",
+      "sourceIp": "192.0.2.93",
+      "asset": "DEMO-WS-18",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0494",
+      "timestamp": "2026-01-15T15:48:21Z",
+      "type": "login_failed",
+      "account": "user-01",
+      "sourceIp": "192.0.2.94",
+      "asset": "DEMO-WS-19",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0495",
+      "timestamp": "2026-01-15T15:49:18Z",
+      "type": "file_change",
+      "account": "user-02",
+      "sourceIp": "192.0.2.95",
+      "asset": "DEMO-WS-20",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0496",
+      "timestamp": "2026-01-15T15:50:15Z",
+      "type": "remote_session",
+      "account": "user-03",
+      "sourceIp": "192.0.2.96",
+      "asset": "DEMO-WS-21",
+      "technique": "T1021"
+    },
+    {
+      "id": "EVT-0497",
+      "timestamp": "2026-01-15T15:51:12Z",
+      "type": "email_flagged",
+      "account": "user-04",
+      "sourceIp": "192.0.2.97",
+      "asset": "DEMO-WS-22",
+      "technique": "T1566.001"
+    },
+    {
+      "id": "EVT-0498",
+      "timestamp": "2026-01-15T15:52:09Z",
+      "type": "login_failed",
+      "account": "user-05",
+      "sourceIp": "192.0.2.98",
+      "asset": "DEMO-WS-23",
+      "technique": "T1110"
+    },
+    {
+      "id": "EVT-0499",
+      "timestamp": "2026-01-15T15:53:06Z",
+      "type": "file_change",
+      "account": "user-06",
+      "sourceIp": "192.0.2.99",
+      "asset": "DEMO-WS-24",
+      "technique": "T1486"
+    },
+    {
+      "id": "EVT-0500",
+      "timestamp": "2026-01-15T15:54:03Z",
+      "type": "remote_session",
+      "account": "user-07",
+      "sourceIp": "192.0.2.100",
+      "asset": "DEMO-WS-25",
+      "technique": "T1021"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "INC-1042",
+      "title": "Podejrzana wiadomość phishingowa",
+      "kind": "phishing",
+      "severity": "high",
+      "status": "new",
+      "asset": "DEMO-WS-22",
+      "account": "user-04",
+      "sourceIp": "192.0.2.97",
+      "technique": "T1566.001",
+      "createdAt": "2026-01-15T15:51:12Z",
+      "description": "Syntetyczny incydent przygotowany do ćwiczenia triage i przeglądu dowodów. Nie pochodzi z monitoringu prawdziwej infrastruktury.",
+      "events": [
+        {
+          "id": "EVT-0497",
+          "timestamp": "2026-01-15T15:51:12Z",
+          "type": "email_flagged",
+          "account": "user-04",
+          "sourceIp": "192.0.2.97",
+          "asset": "DEMO-WS-22",
+          "technique": "T1566.001"
+        }
+      ],
+      "playbook": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "INC-1041",
+      "title": "Próby odgadnięcia hasła",
+      "kind": "brute_force",
+      "severity": "medium",
+      "status": "investigating",
+      "asset": "DEMO-WS-11",
+      "account": "user-10",
+      "sourceIp": "192.0.2.86",
+      "technique": "T1110",
+      "createdAt": "2026-01-15T15:40:45Z",
+      "description": "Syntetyczny incydent przygotowany do ćwiczenia triage i przeglądu dowodów. Nie pochodzi z monitoringu prawdziwej infrastruktury.",
+      "events": [
+        {
+          "id": "EVT-0486",
+          "timestamp": "2026-01-15T15:40:45Z",
+          "type": "login_failed",
+          "account": "user-10",
+          "sourceIp": "192.0.2.86",
+          "asset": "DEMO-WS-11",
+          "technique": "T1110"
+        }
+      ],
+      "playbook": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "INC-1040",
+      "title": "Aktywność podobna do ransomware",
+      "kind": "ransomware",
+      "severity": "critical",
+      "status": "new",
+      "asset": "DEMO-WS-21",
+      "account": "user-12",
+      "sourceIp": "192.0.2.71",
+      "technique": "T1486",
+      "createdAt": "2026-01-15T15:26:30Z",
+      "description": "Syntetyczny incydent przygotowany do ćwiczenia triage i przeglądu dowodów. Nie pochodzi z monitoringu prawdziwej infrastruktury.",
+      "events": [
+        {
+          "id": "EVT-0471",
+          "timestamp": "2026-01-15T15:26:30Z",
+          "type": "file_change",
+          "account": "user-12",
+          "sourceIp": "192.0.2.71",
+          "asset": "DEMO-WS-21",
+          "technique": "T1486"
+        }
+      ],
+      "playbook": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "INC-1039",
+      "title": "Ruch boczny między hostami",
+      "kind": "lateral",
+      "severity": "high",
+      "status": "resolved",
+      "asset": "DEMO-WS-10",
+      "account": "user-01",
+      "sourceIp": "192.0.2.60",
+      "technique": "T1021",
+      "createdAt": "2026-01-15T15:16:03Z",
+      "description": "Syntetyczny incydent przygotowany do ćwiczenia triage i przeglądu dowodów. Nie pochodzi z monitoringu prawdziwej infrastruktury.",
+      "events": [
+        {
+          "id": "EVT-0460",
+          "timestamp": "2026-01-15T15:16:03Z",
+          "type": "remote_session",
+          "account": "user-01",
+          "sourceIp": "192.0.2.60",
+          "asset": "DEMO-WS-10",
+          "technique": "T1021"
+        }
+      ],
+      "playbook": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "INC-1038",
+      "title": "Podejrzana wiadomość phishingowa",
+      "kind": "phishing",
+      "severity": "high",
+      "status": "new",
+      "asset": "DEMO-WS-20",
+      "account": "user-03",
+      "sourceIp": "192.0.2.45",
+      "technique": "T1566.001",
+      "createdAt": "2026-01-15T15:01:48Z",
+      "description": "Syntetyczny incydent przygotowany do ćwiczenia triage i przeglądu dowodów. Nie pochodzi z monitoringu prawdziwej infrastruktury.",
+      "events": [
+        {
+          "id": "EVT-0445",
+          "timestamp": "2026-01-15T15:01:48Z",
+          "type": "email_flagged",
+          "account": "user-03",
+          "sourceIp": "192.0.2.45",
+          "asset": "DEMO-WS-20",
+          "technique": "T1566.001"
+        }
+      ],
+      "playbook": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "INC-1037",
+      "title": "Próby odgadnięcia hasła",
+      "kind": "brute_force",
+      "severity": "medium",
+      "status": "investigating",
+      "asset": "DEMO-WS-09",
+      "account": "user-09",
+      "sourceIp": "192.0.2.34",
+      "technique": "T1110",
+      "createdAt": "2026-01-15T14:51:21Z",
+      "description": "Syntetyczny incydent przygotowany do ćwiczenia triage i przeglądu dowodów. Nie pochodzi z monitoringu prawdziwej infrastruktury.",
+      "events": [
+        {
+          "id": "EVT-0434",
+          "timestamp": "2026-01-15T14:51:21Z",
+          "type": "login_failed",
+          "account": "user-09",
+          "sourceIp": "192.0.2.34",
+          "asset": "DEMO-WS-09",
+          "technique": "T1110"
+        }
+      ],
+      "playbook": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "INC-1036",
+      "title": "Aktywność podobna do ransomware",
+      "kind": "ransomware",
+      "severity": "critical",
+      "status": "new",
+      "asset": "DEMO-WS-19",
+      "account": "user-11",
+      "sourceIp": "192.0.2.19",
+      "technique": "T1486",
+      "createdAt": "2026-01-15T14:37:06Z",
+      "description": "Syntetyczny incydent przygotowany do ćwiczenia triage i przeglądu dowodów. Nie pochodzi z monitoringu prawdziwej infrastruktury.",
+      "events": [
+        {
+          "id": "EVT-0419",
+          "timestamp": "2026-01-15T14:37:06Z",
+          "type": "file_change",
+          "account": "user-11",
+          "sourceIp": "192.0.2.19",
+          "asset": "DEMO-WS-19",
+          "technique": "T1486"
+        }
+      ],
+      "playbook": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "INC-1035",
+      "title": "Ruch boczny między hostami",
+      "kind": "lateral",
+      "severity": "high",
+      "status": "resolved",
+      "asset": "DEMO-WS-08",
+      "account": "user-17",
+      "sourceIp": "192.0.2.8",
+      "technique": "T1021",
+      "createdAt": "2026-01-15T14:26:39Z",
+      "description": "Syntetyczny incydent przygotowany do ćwiczenia triage i przeglądu dowodów. Nie pochodzi z monitoringu prawdziwej infrastruktury.",
+      "events": [
+        {
+          "id": "EVT-0408",
+          "timestamp": "2026-01-15T14:26:39Z",
+          "type": "remote_session",
+          "account": "user-17",
+          "sourceIp": "192.0.2.8",
+          "asset": "DEMO-WS-08",
+          "technique": "T1021"
+        }
+      ],
+      "playbook": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "INC-1034",
+      "title": "Podejrzana wiadomość phishingowa",
+      "kind": "phishing",
+      "severity": "high",
+      "status": "new",
+      "asset": "DEMO-WS-18",
+      "account": "user-02",
+      "sourceIp": "192.0.2.193",
+      "technique": "T1566.001",
+      "createdAt": "2026-01-15T14:12:24Z",
+      "description": "Syntetyczny incydent przygotowany do ćwiczenia triage i przeglądu dowodów. Nie pochodzi z monitoringu prawdziwej infrastruktury.",
+      "events": [
+        {
+          "id": "EVT-0393",
+          "timestamp": "2026-01-15T14:12:24Z",
+          "type": "email_flagged",
+          "account": "user-02",
+          "sourceIp": "192.0.2.193",
+          "asset": "DEMO-WS-18",
+          "technique": "T1566.001"
+        }
+      ],
+      "playbook": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "INC-1033",
+      "title": "Próby odgadnięcia hasła",
+      "kind": "brute_force",
+      "severity": "medium",
+      "status": "investigating",
+      "asset": "DEMO-WS-07",
+      "account": "user-08",
+      "sourceIp": "192.0.2.182",
+      "technique": "T1110",
+      "createdAt": "2026-01-15T14:01:57Z",
+      "description": "Syntetyczny incydent przygotowany do ćwiczenia triage i przeglądu dowodów. Nie pochodzi z monitoringu prawdziwej infrastruktury.",
+      "events": [
+        {
+          "id": "EVT-0382",
+          "timestamp": "2026-01-15T14:01:57Z",
+          "type": "login_failed",
+          "account": "user-08",
+          "sourceIp": "192.0.2.182",
+          "asset": "DEMO-WS-07",
+          "technique": "T1110"
+        }
+      ],
+      "playbook": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "INC-1032",
+      "title": "Aktywność podobna do ransomware",
+      "kind": "ransomware",
+      "severity": "critical",
+      "status": "new",
+      "asset": "DEMO-WS-17",
+      "account": "user-10",
+      "sourceIp": "192.0.2.167",
+      "technique": "T1486",
+      "createdAt": "2026-01-15T13:47:42Z",
+      "description": "Syntetyczny incydent przygotowany do ćwiczenia triage i przeglądu dowodów. Nie pochodzi z monitoringu prawdziwej infrastruktury.",
+      "events": [
+        {
+          "id": "EVT-0367",
+          "timestamp": "2026-01-15T13:47:42Z",
+          "type": "file_change",
+          "account": "user-10",
+          "sourceIp": "192.0.2.167",
+          "asset": "DEMO-WS-17",
+          "technique": "T1486"
+        }
+      ],
+      "playbook": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "INC-1031",
+      "title": "Ruch boczny między hostami",
+      "kind": "lateral",
+      "severity": "high",
+      "status": "resolved",
+      "asset": "DEMO-WS-06",
+      "account": "user-16",
+      "sourceIp": "192.0.2.156",
+      "technique": "T1021",
+      "createdAt": "2026-01-15T13:37:15Z",
+      "description": "Syntetyczny incydent przygotowany do ćwiczenia triage i przeglądu dowodów. Nie pochodzi z monitoringu prawdziwej infrastruktury.",
+      "events": [
+        {
+          "id": "EVT-0356",
+          "timestamp": "2026-01-15T13:37:15Z",
+          "type": "remote_session",
+          "account": "user-16",
+          "sourceIp": "192.0.2.156",
+          "asset": "DEMO-WS-06",
+          "technique": "T1021"
+        }
+      ],
+      "playbook": [
+        false,
+        false,
+        false
+      ]
+    }
+  ],
+  "runs": [],
+  "audit": [
+    {
+      "id": "AUD-1",
+      "at": "2026-01-15T08:00:00Z",
+      "action": "Wczytano syntetyczny zestaw: 500 zdarzeń, 12 incydentów.",
+      "actor": "Demo system"
+    }
+  ]
+}
